@@ -104,9 +104,9 @@
     <div class="container">
         <!-- Left Column (Sidebar) -->
         <div class="sidebar">
-            <h1>Your Name</h1>
-            <p><strong>Email:</strong> your.email@example.com</p>
-            <p><strong>Phone:</strong> +123 456 7890</p>
+            <h1>Luc Paluskiewicz </h1>
+            <p><strong>Email:</strong> luc.paluskiewicz@psemail.eu </p>
+            <p><strong> </strong> luc.paluskiewicz@college-de-france.fr </p>
             <p>
                 <img src="linkedin-logo.png" alt="LinkedIn">
                 <a href="#">LinkedIn</a>
@@ -125,20 +125,8 @@
 
         <!-- Right Column (Main Content) -->
         <div class="main-content">
-            <h2 id="publications">Latest Research Publications</h2>
-            <ul>
-                <li><strong>Title of Paper 1</strong><br/>Journal Name, Year, Authors</li>
-                <li><strong>Title of Paper 2</strong><br/>Journal Name, Year, Authors</li>
-                <li><strong>Title of Paper 3</strong><br/>Journal Name, Year, Authors</li>
-            </ul>
-
-            <h2 id="collaborations">Collaborations</h2>
-            <ul>
-                <li><strong>Research Group 1</strong><br/>Description of the collaboration</li>
-                <li><strong>Research Group 2</strong><br/>Description of the collaboration</li>
-                <li><strong>Research Group 3</strong><br/>Description of the collaboration</li>
-            </ul>
-        </div>
+        General description. 
+        
     </div>
 
 </body>
