@@ -19,7 +19,7 @@
 
         /* Fixed left column for contact and main information */
         .sidebar {
-            width: 250px;
+            width: 350px;  /* Increased width */
             background-color: #f4f4f4;
             padding: 20px;
             position: fixed;
@@ -29,7 +29,7 @@
 
         /* Right column for scrollable content */
         .main-content {
-            margin-left: 250px;
+            margin-left: 350px;  /* Adjust margin for the larger sidebar */
             padding: 20px;
             overflow-y: auto;
             flex-grow: 1;
@@ -41,12 +41,20 @@
         }
 
         a {
-            color: #007BFF;
+            color: #8B0000; /* Dark brick color */
             text-decoration: none;
         }
 
         a:hover {
             text-decoration: underline;
+        }
+
+        /* Style for logos in the sidebar */
+        .sidebar img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 10px;
         }
 
         /* Responsive adjustments */
@@ -71,20 +79,34 @@
             <h1>Your Name</h1>
             <p><strong>Email:</strong> your.email@example.com</p>
             <p><strong>Phone:</strong> +123 456 7890</p>
-            <p><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/yourprofile</a></p>
-            <p><strong>GitHub:</strong> <a href="#">github.com/yourprofile</a></p>
+            <p>
+                <img src="linkedin-logo.png" alt="LinkedIn">
+                <a href="#">LinkedIn</a>
+            </p>
+            <p>
+                <img src="github-logo.png" alt="GitHub">
+                <a href="#">GitHub</a>
+            </p>
+            <!-- Add more logos for other platforms -->
         </div>
 
         <!-- Right Column (Main Content) -->
         <div class="main-content">
-            <h2>Latest Research Publications</h2>
+            <!-- Links at the top for navigation -->
+            <nav>
+                <a href="#publications">Research Publications</a> | 
+                <a href="#collaborations">Collaborations</a>
+            </nav>
+            <hr/>
+
+            <h2 id="publications">Latest Research Publications</h2>
             <ul>
                 <li><strong>Title of Paper 1</strong><br/>Journal Name, Year, Authors</li>
                 <li><strong>Title of Paper 2</strong><br/>Journal Name, Year, Authors</li>
                 <li><strong>Title of Paper 3</strong><br/>Journal Name, Year, Authors</li>
             </ul>
 
-            <h2>Collaborations</h2>
+            <h2 id="collaborations">Collaborations</h2>
             <ul>
                 <li><strong>Research Group 1</strong><br/>Description of the collaboration</li>
                 <li><strong>Research Group 2</strong><br/>Description of the collaboration</li>
