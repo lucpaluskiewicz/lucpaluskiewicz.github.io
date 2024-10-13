@@ -30,9 +30,33 @@
         /* Right column for scrollable content */
         .main-content {
             margin-left: 350px;  /* Adjust margin for the larger sidebar */
-            padding: 20px;
+            padding: 70px 20px 20px 20px; /* Top padding to make room for fixed navbar */
             overflow-y: auto;
             flex-grow: 1;
+        }
+
+        /* Fixed top navigation links */
+        .top-nav {
+            position: fixed;
+            top: 0;
+            left: 350px;  /* Make sure it's aligned after the sidebar */
+            right: 0;
+            background-color: #fff;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            z-index: 1000;  /* Ensure it stays above other content */
+            text-align: right;  /* Align links to the right */
+        }
+
+        .top-nav a {
+            color: #8B0000;  /* Dark brick color */
+            text-decoration: none;
+            margin-left: 15px;
+            font-weight: bold;
+        }
+
+        .top-nav a:hover {
+            text-decoration: underline;
         }
 
         /* Add styles for headers and links */
@@ -68,6 +92,10 @@
             .main-content {
                 margin-left: 0;
             }
+
+            .top-nav {
+                left: 0;
+            }
         }
     </style>
 </head>
@@ -87,18 +115,16 @@
                 <img src="github-logo.png" alt="GitHub">
                 <a href="#">GitHub</a>
             </p>
-            <!-- Add more logos for other platforms -->
+        </div>
+
+        <!-- Top Navigation (Fixed Links) -->
+        <div class="top-nav">
+            <a href="https://lucpaluskiewicz.github.io/research" target="_blank">Research</a>
+            <a href="https://lucpaluskiewicz.github.io/cv" target="_blank">CV</a>
         </div>
 
         <!-- Right Column (Main Content) -->
         <div class="main-content">
-            <!-- Links at the top for navigation -->
-            <nav>
-                <a href="#publications">Research Publications</a> | 
-                <a href="#collaborations">Collaborations</a>
-            </nav>
-            <hr/>
-
             <h2 id="publications">Latest Research Publications</h2>
             <ul>
                 <li><strong>Title of Paper 1</strong><br/>Journal Name, Year, Authors</li>
