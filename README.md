@@ -119,19 +119,10 @@
             <hr/>
 
             <!-- General description -->
-            <h2>General Description</h2>
             <p>
-                I am Luc Paluskiewicz, a passionate researcher with a focus on computational models and their applications in social sciences. 
-                I currently hold a dual affiliation with the Paris School of Economics and the College de France. 
-                My work primarily revolves around leveraging data-driven methods to understand complex social behaviors and systems.
+                I am Luc Paluskiewicz, PhD candidate in Economics at the Paris School of Economics and the Collège de France. 
             </p>
-            <p>
-                My current research projects involve collaboration with renowned institutions, exploring how computational tools can contribute 
-                to policy-making, and the intersection of artificial intelligence and behavioral economics.
-            </p>
-            <p>
-                Feel free to explore my latest <a href="https://lucpaluskiewicz.github.io/research" target="_blank">research</a> or check my <a href="https://lucpaluskiewicz.github.io/cv" target="_blank">CV</a> for more details on my professional background.
-            </p>
+
         </div>
     </div>
 
