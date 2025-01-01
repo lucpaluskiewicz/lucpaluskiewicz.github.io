@@ -96,8 +96,8 @@
             <!-- Placeholder for your image -->
             <img src="your-image.jpg" alt="Your Photo" class="profile-image">
 
-            <p><strong>Email:</strong> <span class="email">luc.paluskiewicz@psemail.eu</span></p>
-            <p><strong></strong> <span class="email">luc.paluskiewicz@college-de-france.fr</span></p>
+            <p><strong>Email:</strong> <span class="email">luc.paluskiewicz[at]psemail.eu</span></p>
+            <p><strong></strong> <span class="email">luc.paluskiewicz[at]college-de-france.fr</span></p>
 
             <p><strong>Adress:</strong> Collège de France, 3 rue d'Ulm 75005 Paris.</p>
 
