@@ -12,30 +12,30 @@
     position: fixed;
     top: 0;
     bottom: 0;
+    border-right: 1px solid #ddd; /* Creates a dividing line */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+    font-family: 'Roboto', Arial, sans-serif; /* Modern font for sidebar */
 }
 
 /* Right column for scrollable content */
 .main-content {
-    margin-left: 420px; /* Increase this value slightly to push the text further to the right */
+    margin-left: 420px; /* Increased spacing to push text further right */
     padding: 20px;
     overflow-y: auto;
     flex-grow: 1;
-    background-color: #ffffff; /* Optional: add a background to visually separate the sections */
-}
-
-/* Optional: Add a subtle border or shadow to define the boundary */
-.sidebar {
-    border-right: 1px solid #ddd; /* Creates a vertical dividing line */
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better separation */
+    background-color: #ffffff; /* Visual separation */
+    font-family: 'Open Sans', Arial, sans-serif; /* Clean font for main content */
+    color: #333; /* Text color for readability */
 }
 
 /* General styles for headers and links */
 h1, h2, h3 {
-    color: #333;
+    color: #333; /* Dark text for better readability */
+    font-family: 'Roboto Slab', serif; /* Elegant serif font for headers */
 }
 
 a {
-    color: #8B0000;
+    color: #8B0000; /* Dark brick color for links */
     text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ a:hover {
 
 /* Styling the email in brick color */
 .email {
-    color: #8B0000;
+    color: #8B0000; /* Dark brick color for email */
 }
 
 /* Style for logos in the sidebar */
@@ -59,10 +59,11 @@ a:hover {
 /* Space for image */
 .profile-image {
     margin-top: 20px;
-    width: 150px;
+    width: 150px; /* Size for profile image */
     height: 150px;
     border-radius: 50%;
     display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for profile image */
 }
 
 /* Responsive adjustments */
