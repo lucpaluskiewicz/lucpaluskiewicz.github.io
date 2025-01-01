@@ -16,10 +16,17 @@
 
 /* Right column for scrollable content */
 .main-content {
-    margin-left: 400px;
+    margin-left: 420px; /* Increase this value slightly to push the text further to the right */
     padding: 20px;
     overflow-y: auto;
     flex-grow: 1;
+    background-color: #ffffff; /* Optional: add a background to visually separate the sections */
+}
+
+/* Optional: Add a subtle border or shadow to define the boundary */
+.sidebar {
+    border-right: 1px solid #ddd; /* Creates a vertical dividing line */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better separation */
 }
 
 /* General styles for headers and links */
