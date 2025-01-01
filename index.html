@@ -1,1 +1,73 @@
+    /* Container for the layout */
+    .container {
+        display: flex;
+        height: 100vh;
+    }
 
+    /* Fixed left column for contact and main information */
+    .sidebar {
+        width: 400px;  /* Increased width */
+        background-color: #f4f4f4;
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+
+    /* Right column for scrollable content */
+    .main-content {
+        margin-left: 400px;  /* Adjust margin for the larger sidebar */
+        padding: 20px;
+        overflow-y: auto;
+        flex-grow: 1;
+    }
+
+    /* General styles for headers and links */
+    h1, h2, h3 {
+        color: #333;
+    }
+
+    a {
+        color: #8B0000; /* Dark brick color */
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* Styling the email in brick color */
+    .email {
+        color: #8B0000;  /* Dark brick color for email */
+    }
+
+    /* Style for logos in the sidebar */
+    .sidebar img {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    /* Space for image */
+    .profile-image {
+        margin-top: 20px;
+        width: 150px;  /* Example size for the profile image */
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+    }
+
+    /* Responsive adjustments */
+    @media screen and (max-width: 768px) {
+        .sidebar {
+            width: 100%;
+            position: relative;
+            height: auto;
+        }
+
+        .main-content {
+            margin-left: 0;
+        }
+    }
+</style>
