@@ -1,80 +1,88 @@
 /* Container for the layout */
 .container {
-    display: flex;
-    height: 100vh;
+    display: flex; /* Use flexbox for the layout */
+    height: 100vh; /* Full height of the viewport */
+    /* You can modify the height or add a min-height for larger screens */
 }
 
 /* Fixed left column for contact and main information */
 .sidebar {
-    width: 400px;
-    background-color: #f4f4f4;
-    padding: 20px;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    border-right: 1px solid #ddd; /* Creates a dividing line */
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
-    font-family: 'Roboto', Arial, sans-serif; /* Modern font for sidebar */
+    width: 400px; /* Width of the sidebar, adjust as needed */
+    background-color: #f4f4f4; /* Background color for sidebar */
+    padding: 20px; /* Inner spacing inside the sidebar */
+    position: fixed; /* Fix the sidebar position */
+    top: 0; /* Align to the top */
+    bottom: 0; /* Align to the bottom */
+    border-right: 1px solid #ddd; /* Vertical dividing line */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for visual separation */
+    font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
+    /* You can adjust the font size, line height, or add custom padding */
 }
 
 /* Right column for scrollable content */
 .main-content {
-    margin-left: 420px; /* Increased spacing to push text further right */
-    padding: 20px;
-    overflow-y: auto;
-    flex-grow: 1;
-    background-color: #ffffff; /* Visual separation */
-    font-family: 'Open Sans', Arial, sans-serif; /* Clean font for main content */
+    margin-left: 460px; /* Space between the sidebar and main content, adjust for alignment */
+    padding: 20px; /* Inner spacing for the main content area */
+    overflow-y: auto; /* Enable vertical scrolling for the main content */
+    flex-grow: 1; /* Allow the main content to expand to available space */
+    background-color: #ffffff; /* Background color for the main content */
+    font-family: 'Open Sans', Arial, sans-serif; /* Font family for main content */
     color: #333; /* Text color for readability */
+    /* You can modify line spacing, margin, or add additional styles here */
 }
 
 /* General styles for headers and links */
 h1, h2, h3 {
-    color: #333; /* Dark text for better readability */
+    color: #333; /* Dark text for headers for better readability */
     font-family: 'Roboto Slab', serif; /* Elegant serif font for headers */
+    /* You can adjust font size, weight, or letter spacing */
 }
 
 a {
     color: #8B0000; /* Dark brick color for links */
-    text-decoration: none;
+    text-decoration: none; /* No underline for links by default */
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline links on hover for emphasis */
 }
 
 /* Styling the email in brick color */
 .email {
-    color: #8B0000; /* Dark brick color for email */
+    color: #8B0000; /* Dark brick color for email links */
+    /* You can add bold text or a unique font style for email links */
 }
 
 /* Style for logos in the sidebar */
 .sidebar img {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 10px;
+    width: 20px; /* Width of each logo, adjust as needed */
+    height: 20px; /* Height of each logo */
+    vertical-align: middle; /* Align logos with text vertically */
+    margin-right: 10px; /* Space between logo and adjacent text */
+    /* You can add hover effects or adjust spacing here */
 }
 
-/* Space for image */
+/* Space for profile image */
 .profile-image {
-    margin-top: 20px;
-    width: 150px; /* Size for profile image */
-    height: 150px;
-    border-radius: 50%;
-    display: block;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for profile image */
+    margin-top: 20px; /* Space above the profile image */
+    width: 150px; /* Diameter of the circular profile image */
+    height: 150px; /* Height of the profile image (same as width for circle) */
+    border-radius: 50%; /* Circular image */
+    display: block; /* Ensures image behaves as a block element */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a slight 3D effect */
+    /* You can adjust the shadow or add a border around the image */
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments for smaller screens */
 @media screen and (max-width: 768px) {
     .sidebar {
-        width: 100%;
-        position: relative;
-        height: auto;
+        width: 100%; /* Make sidebar full width for small screens */
+        position: relative; /* Change from fixed to relative for flow layout */
+        height: auto; /* Adjust height to fit content */
+        /* You can also hide the sidebar with display: none; on smaller screens */
     }
 
     .main-content {
-        margin-left: 0;
+        margin-left: 0; /* Reset margin to 0 for a seamless mobile view */
     }
 }
