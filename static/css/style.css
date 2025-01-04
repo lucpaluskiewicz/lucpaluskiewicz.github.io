@@ -86,3 +86,47 @@ a:hover {
         margin-left: 0; /* Reset margin to 0 for a seamless mobile view */
     }
 }
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #333; /* Dark background for navbar */
+    overflow: hidden; /* Ensure the navbar stays compact */
+    position: fixed; /* Fix navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Keep navbar above other elements */
+    padding: 0; /* Remove extra padding */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display items in a row */
+    justify-content: flex-start; /* Align items to the left */
+}
+
+.navbar li {
+    flex: 1; /* Allow each item to take equal space */
+}
+
+.navbar a {
+    display: block; /* Make links behave like block elements */
+    color: white; /* White text for links */
+    text-align: center; /* Center-align link text */
+    padding: 14px 20px; /* Add padding around the links */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar a:hover {
+    background-color: #575757; /* Add hover effect with a lighter background */
+    color: #fff; /* Keep text white on hover */
+}
+
+/* Push content down to avoid overlapping with the navbar */
+.container {
+    margin-top: 50px; /* Adjust this based on navbar height */
+}
+
+
