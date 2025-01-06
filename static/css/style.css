@@ -26,7 +26,7 @@
     overflow-y: auto; /* Enable vertical scrolling for the main content */
     flex-grow: 1; /* Allow the main content to expand to available space */
     background-color: #ffffff; /* Background color for the main content */
-    font-family: 'Open Sans', Arial, sans-serif; /* Font family for main content */
+    font-family: 'Roboto', Arial, sans-serif; /* Font family for main content */
     color: #333; /* Text color for readability */
     /* You can modify line spacing, margin, or add additional styles here */
 }
@@ -34,7 +34,7 @@
 /* General styles for headers and links */
 h1, h2, h3 {
     color: #333; /* Dark text for headers for better readability */
-    font-family: 'Roboto Slab', serif; /* Elegant serif font for headers */
+    font-family: 'Roboto', Arial, sans-serif; /* Elegant serif font for headers */
     /* You can adjust font size, weight, or letter spacing */
 }
 
@@ -88,14 +88,12 @@ a:hover {
 }
 
 
-
-
 /* Navigation bar styles (inside the main content) */
 .navbar {
-    background-color: #333; /* Dark background for the navbar */
+    background-color: #fdd49e; /* Dark background for the navbar */
     padding: 10px 0; /* Padding for spacing */
-    margin-bottom: 20px; /* Space between navbar and content below */
-    border-radius: 5px; /* Slightly rounded corners */
+    margin-bottom: 50px; /* Space between navbar and content below */
+    border-radius: 10px; /* Slightly rounded corners */
     text-align: center; /* Center-align the links horizontally */
 }
 
@@ -112,10 +110,10 @@ a:hover {
 }
 
 .navbar a {
-    color: white; /* White text for links */
+    color: black; /* White text for links */
     text-decoration: none; /* Remove underline */
     padding: 10px 20px; /* Add spacing inside each link */
-    font-family: 'Open Sans', Arial, sans-serif; /* Font for links */
+    font-family: 'Roboto', Arial, sans-serif; /* Font for links */
     font-size: 16px; /* Size of link text */
 }
 
