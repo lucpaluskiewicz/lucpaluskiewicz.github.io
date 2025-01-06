@@ -6,6 +6,30 @@
     <title>Luc Paluskiewicz</title>
     <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="static/css/style.css">
+    <style>
+        /* Sidebar styles */
+        .sidebar {
+            position: relative; /* To allow absolute positioning of logos */
+            width: 250px;
+            padding: 20px;
+        }
+
+        /* Fix logos to the bottom of the sidebar and center them */
+        .sidebar-logos {
+            position: absolute;       /* Position relative to the sidebar */
+            bottom: 20px;             /* Distance from the bottom of the sidebar */
+            left: 50%;                /* Center horizontally in the sidebar */
+            transform: translateX(-50%); /* Offset by half the width of the container */
+            display: flex;            /* Use flexbox to align logos */
+            gap: 20px;                /* Space between the logos */
+        }
+
+        /* Style for the logos */
+        .sidebar-logos img {
+            max-width: 60px;  /* Adjust the logo size */
+            height: auto;     /* Maintain aspect ratio */
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -13,9 +37,12 @@
         <div class="sidebar">
             <h1>Luc Paluskiewicz</h1>
             <img class="profile-image" src="static/images/profile.jpg" alt="Your Profile Picture">
-            <p>  <img src="static/images/mail_icon.png" alt="Mail Logo">  <a class="email" href="mailto:luc.paluskiewicz@psemail.eu">luc.paluskiewicz[at]psemail.eu</a> or 
+            <p>
+                <img src="static/images/mail_icon.png" alt="Mail Logo">  
+                <a class="email" href="mailto:luc.paluskiewicz@psemail.eu">luc.paluskiewicz[at]psemail.eu</a> or 
                 <a class="email" href="mailto:luc.paluskiewicz@college-de-france.fr">luc.paluskiewicz[at]college-de-france.fr</a>
             </p> 
+            
             <!-- Add logos to the bottom of the sidebar -->
             <div class="sidebar-logos">
                 <a href="https://example1.com">
@@ -41,11 +68,8 @@
 
             <!-- Page Content -->
             <h2>Welcome!</h2>
-            
-            <p>I am a PhD candidate at Paris School of Economics, Collège de France and EHESS. I work under the supervision of Philippe Aghion. </p>
-            
+            <p>I am a PhD candidate at Paris School of Economics, Collège de France and EHESS. I work under the supervision of Philippe Aghion.</p>
             My research lies at the intersection of Innovation Economics and Political Economics. 
-            
         </div>
     </div>
 </body>
