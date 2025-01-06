@@ -131,5 +131,53 @@ a:hover {
     margin-top: 50px; /* Adjust this based on navbar height */
 }
 
+    /* Styles for toggle button and abstract */
+    .abstract-toggle {
+        cursor: pointer;
+        color: #8B0000; /* Dark brick color */
+        font-weight: bold;
+        margin-left: 5px;
+    }
 
+    .abstract {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease, padding 0.3s ease;
+        background-color: #f9f9f9;
+        margin-top: 15px; /* Space between the title and abstract */
+        padding: 0 10px;
+        border: 1px solid #ddd;
+        font-size: 14px;
+        line-height: 1.8; /* Increased interline spacing */
+        text-align: justify; /* Justify text */
+    }
+
+    .abstract.open {
+        max-height: 200px; /* Adjust this value for the abstract's height */
+        padding: 10px 10px;
+    }
+
+    .abstract-toggle.open::after {
+        content: "▼"; /* Down arrow */
+    }
+
+    .abstract-toggle.closed::after {
+        content: "►"; /* Right arrow */
+    }
+
+    /* Spacing between items */
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul > li {
+        margin-bottom: 40px; /* Add more space between list items */
+    }
+
+    /* Optional: style for the status */
+    .status {
+        font-style: italic;
+        color: #555;
+    }
 
