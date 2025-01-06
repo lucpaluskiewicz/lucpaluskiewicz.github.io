@@ -90,46 +90,39 @@ a:hover {
 
 
 
-/* Navigation bar styles */
+/* Navigation bar styles (inside the main content) */
 .navbar {
-    background-color: #333; /* Dark background for navbar */
-    overflow: hidden; /* Ensure the navbar stays compact */
-    position: fixed; /* Fix navbar at the top */
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Keep navbar above other elements */
-    padding: 0; /* Remove extra padding */
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 0; /* Padding for spacing */
+    margin-bottom: 20px; /* Space between navbar and content below */
+    border-radius: 5px; /* Slightly rounded corners */
+    text-align: center; /* Center-align the links horizontally */
 }
 
 .navbar ul {
     list-style-type: none; /* Remove bullet points */
-    margin: 0;
-    padding: 0;
-    display: flex; /* Display items in a row */
-    justify-content: flex-start; /* Align items to the left */
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+    display: flex; /* Display links horizontally */
+    justify-content: space-evenly; /* Even spacing between links */
 }
 
 .navbar li {
-    flex: 1; /* Allow each item to take equal space */
+    display: inline; /* Inline elements for links */
 }
 
 .navbar a {
-    display: block; /* Make links behave like block elements */
     color: white; /* White text for links */
-    text-align: center; /* Center-align link text */
-    padding: 14px 20px; /* Add padding around the links */
     text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Add spacing inside each link */
+    font-family: 'Open Sans', Arial, sans-serif; /* Font for links */
+    font-size: 16px; /* Size of link text */
 }
 
 .navbar a:hover {
-    background-color: #575757; /* Add hover effect with a lighter background */
-    color: #fff; /* Keep text white on hover */
-}
-
-/* Push content down to avoid overlapping with the navbar */
-.container {
-    margin-top: 50px; /* Adjust this based on navbar height */
+    background-color: #575757; /* Lighter background on hover */
+    border-radius: 5px; /* Rounded effect on hover */
+    color: #fff; /* White text on hover */
 }
 
 
@@ -137,5 +130,6 @@ a:hover {
 .container {
     margin-top: 50px; /* Adjust this based on navbar height */
 }
+
 
 
