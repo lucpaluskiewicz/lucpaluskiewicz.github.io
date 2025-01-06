@@ -8,7 +8,7 @@
 /* Fixed left column for contact and main information */
 .sidebar {
     width: 400px; /* Width of the sidebar, adjust as needed */
-    background-color: #ede7d7; /* Background color for sidebar */
+    background-color: #f0d3d3; /* Background color for sidebar */
     padding: 20px; /* Inner spacing inside the sidebar */
     position: fixed; /* Fix the sidebar position */
     top: 0; /* Align to the top */
@@ -90,7 +90,7 @@ a:hover {
 
 /* Navigation bar styles (inside the main content) */
 .navbar {
-    background-color: #fdd49e; /* Dark background for the navbar */
+    background-color: #c14e4e; /* Dark background for the navbar */
     padding: 10px 0; /* Padding for spacing */
     margin-bottom: 50px; /* Space between navbar and content below */
     border-radius: 10px; /* Slightly rounded corners */
@@ -118,7 +118,7 @@ a:hover {
 }
 
 .navbar a:hover {
-    background-color: #575757; /* Lighter background on hover */
+    background-color: #d17a7a; /* Lighter background on hover */
     border-radius: 5px; /* Rounded effect on hover */
     color: #fff; /* White text on hover */
 }
@@ -126,7 +126,7 @@ a:hover {
 
 /* Push content down to avoid overlapping with the navbar */
 .container {
-    margin-top: 50px; /* Adjust this based on navbar height */
+    margin-top: 30px; /* Adjust this based on navbar height */
 }
 
 /* Styles for toggle button and abstract */
