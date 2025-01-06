@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <style>
+        /* Styles for toggle button and abstract */
+        .abstract-toggle {
+            cursor: pointer;
+            color: #8B0000; /* Dark brick color */
+            font-weight: bold;
+            margin-left: 5px;
+        }
+
+        .abstract {
+            display: none; /* Initially hidden */
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .abstract-toggle.open::after {
+            content: "▼"; /* Down arrow */
+        }
+
+        .abstract-toggle.closed::after {
+            content: "►"; /* Right arrow */
+        }
+
+        /* Optional: style for the status */
+        .status {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h1>Luc Paluskiewicz</h1>
+            <img class="profile-image" src="static/images/profile.jpg" alt="Your Profile Picture">
+            <p>Email: <a class="email" href="mailto:luc.paluskiewicz@psemail.eu">luc.paluskiewicz[at]psemail.eu</a></p>
+            <!-- Add logos -->
+            <div>
+                <a href="mailto:luc.paluskiewicz@psemail.eu">
+                    <img src="static/images/mail_icon.png" alt="Mail Logo">
+                </a>
+                <a href="https://www.parisschoolofeconomics.eu/equipes/luc-paluskiewicz/">
+                    <img src="static/images/logo_pse.jpg" alt="Link Logo"> 
+                </a>
+                <a href="https://lucpaluskiewicz.github.io/">
+                    <img src="static/images/Collège_de_France_logo.png" alt="Link Logo"> 
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Navigation Bar -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                </ul>
+            </nav>
+
+            <!-- Research Content -->
+            <h2>Research</h2>
+            
+            <!-- Publications Section -->
+            <section>
+                <h3>Publications</h3>
+                <ul>
+                    <li>
+                        <strong>Title of Published Article 1</strong> by 
+                        <a href="https://example.com/author1">Author 1</a>, 
+                        <a href="https://example.com/author2">Author 2</a>, and 
+                        <a href="https://example.com/author3">Author 3</a>.
+                        <div class="status">Status: Accepted</div>
+                        <span class="abstract-toggle closed" onclick="toggleAbstract(this)">Abstract</span>
+                        <div class="abstract">
+                            This is a detailed abstract of the first published article. It provides a summary of the content, key findings, and methodology.
+                        </div>
+                    </li>
+                    <li>
+                        <strong>Title of Published Article 2</strong> by 
+                        <a href="https://example.com/authorA">Author A</a> and 
+                        <a href="https://example.com/authorB">Author B</a>.
+                        <div class="status">Status: Submitted</div>
+                        <span class="abstract-toggle closed" onclick="toggleAbstract(this)">Abstract</span>
+                        <div class="abstract">
+                            This is a detailed abstract of the second published article. It includes a brief overview of the study and its implications.
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Working Papers Section -->
+            <section>
+                <h3>Working Papers</h3>
+                <ul>
+                    <li>
+                        <strong>Title of Working Paper 1</strong> by 
+                        <a href="https://example.com/authorX">Author X</a> and 
+                        <a href="https://example.com/authorY">Author Y</a>.
+                        <div class="status">Status: In Preparation</div>
+                        <span class="abstract-toggle closed" onclick="toggleAbstract(this)">Abstract</span>
+                        <div class="abstract">
+                            This is the abstract for the first working paper, describing its main goals, theoretical framework, and preliminary results.
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to handle abstract toggle
+        function toggleAbstract(element) {
+            const abstractDiv = element.nextElementSibling;
+            const isClosed = element.classList.contains('closed');
+            
+            if (isClosed) {
+                element.classList.remove('closed');
+                element.classList.add('open');
+                abstractDiv.style.display = 'block';
+            } else {
+                element.classList.remove('open');
+                element.classList.add('closed');
+                abstractDiv.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
 
