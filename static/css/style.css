@@ -265,10 +265,10 @@ ul > li {
 .sidebar-logos {
     position: fixed;      /* Fix to the bottom */
     bottom: 10px;         /* Distance from the bottom of the page */
-    left: 50%;            /* Center horizontally */
+    left: 90%;            /* Center horizontally */
     transform: translateX(-50%); /* Offset by half the width of the container */
     display: flex;        /* Use flexbox to align logos */
-    gap: 20px;            /* Space between the logos */
+    gap: 40px;            /* Space between the logos */
 }
 
 .sidebar-logos a {
