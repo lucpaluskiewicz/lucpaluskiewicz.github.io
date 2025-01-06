@@ -276,7 +276,7 @@ ul > li {
 }
 
 .sidebar-logos img {
-    max-width: 60px;  /* Adjust the logo size */
+    max-width: 200px;  /* Adjust the logo size */
     height: auto;     /* Maintain aspect ratio */
 }
 
