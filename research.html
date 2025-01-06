@@ -16,13 +16,20 @@
         }
 
         .abstract {
-            display: none; /* Initially hidden */
-            margin-top: 10px;
-            padding: 10px;
-            border: 1px solid #ddd;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
             background-color: #f9f9f9;
+            margin-top: 10px;
+            padding: 0 10px;
+            border: 1px solid #ddd;
             font-size: 14px;
             line-height: 1.5;
+        }
+
+        .abstract.open {
+            max-height: 200px; /* Adjust this value for the abstract's height */
+            padding: 10px 10px;
         }
 
         .abstract-toggle.open::after {
@@ -31,6 +38,16 @@
 
         .abstract-toggle.closed::after {
             content: "►"; /* Right arrow */
+        }
+
+        /* Spacing between items */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul > li {
+            margin-bottom: 30px; /* Add space between list items */
         }
 
         /* Optional: style for the status */
@@ -132,14 +149,13 @@
             if (isClosed) {
                 element.classList.remove('closed');
                 element.classList.add('open');
-                abstractDiv.style.display = 'block';
+                abstractDiv.classList.add('open');
             } else {
                 element.classList.remove('open');
                 element.classList.add('closed');
-                abstractDiv.style.display = 'none';
+                abstractDiv.classList.remove('open');
             }
         }
     </script>
 </body>
 </html>
-
