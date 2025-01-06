@@ -87,6 +87,9 @@ a:hover {
     }
 }
 
+
+
+
 /* Navigation bar styles */
 .navbar {
     background-color: #333; /* Dark background for navbar */
@@ -123,6 +126,12 @@ a:hover {
     background-color: #575757; /* Add hover effect with a lighter background */
     color: #fff; /* Keep text white on hover */
 }
+
+/* Push content down to avoid overlapping with the navbar */
+.container {
+    margin-top: 50px; /* Adjust this based on navbar height */
+}
+
 
 /* Push content down to avoid overlapping with the navbar */
 .container {
