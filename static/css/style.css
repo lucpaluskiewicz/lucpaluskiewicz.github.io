@@ -261,3 +261,24 @@ ul > li {
 
 
 
+/* Fix logos at the bottom of the sidebar */
+.sidebar-logos {
+    position: fixed;      /* Fix to the bottom */
+    bottom: 10px;         /* Distance from the bottom of the page */
+    left: 50%;            /* Center horizontally */
+    transform: translateX(-50%); /* Offset by half the width of the container */
+    display: flex;        /* Use flexbox to align logos */
+    gap: 20px;            /* Space between the logos */
+}
+
+.sidebar-logos a {
+    display: inline-block; /* Make links block level for better control */
+}
+
+.sidebar-logos img {
+    max-width: 60px;  /* Adjust the logo size */
+    height: auto;     /* Maintain aspect ratio */
+}
+
+
+
