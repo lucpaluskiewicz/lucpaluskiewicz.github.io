@@ -280,4 +280,18 @@ ul > li {
 }
 
 
+    /* Regular link styling */
+    .hover-bold {
+        text-decoration: none; /* Remove underline */
+        color: #000; /* Default text color */
+        font-weight: normal; /* Regular weight */
+        transition: font-weight 0.2s ease; /* Smooth transition to bold */
+    }
+
+    /* Hover effect */
+    .hover-bold:hover {
+        font-weight: bold; /* Make the text bold */
+        color: #8B0000; /* Optional: Change the text color on hover */
+    }
+
 
