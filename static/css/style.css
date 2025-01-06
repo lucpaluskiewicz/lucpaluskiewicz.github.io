@@ -131,7 +131,7 @@ a:hover {
     margin-top: 50px; /* Adjust this based on navbar height */
 }
 
-    /* Styles for toggle button and abstract */
+/* Styles for toggle button and abstract */
     .abstract-toggle {
         cursor: pointer;
         color: #8B0000; /* Dark brick color */
@@ -172,7 +172,7 @@ a:hover {
     }
 
     ul > li {
-        margin-bottom: 40px; /* Add more space between list items */
+        margin-bottom: 60px; /* Add more space between list items */
     }
 
     /* Optional: style for the status */
