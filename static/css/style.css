@@ -8,7 +8,7 @@
 /* Fixed left column for contact and main information */
 .sidebar {
     width: 400px; /* Width of the sidebar, adjust as needed */
-    background-color: #fff7ec; /* Background color for sidebar */
+    background-color: #ede7d7; /* Background color for sidebar */
     padding: 20px; /* Inner spacing inside the sidebar */
     position: fixed; /* Fix the sidebar position */
     top: 0; /* Align to the top */
@@ -183,7 +183,8 @@ a:hover {
 ul > li > .title {
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 8px; /* Space between title and other elements */
+    font-style: italic;
+    margin-bottom: 10px; /* Space between title and other elements */
 }
 
 /* Styles for publication status */
@@ -262,8 +263,8 @@ ul > li {
 /* Fix logos at the bottom of the sidebar */
 .sidebar-logos {
     position: fixed;      /* Fix to the bottom */
-    bottom: 10px;         /* Distance from the bottom of the page */
-    left: 90%;            /* Center horizontally */
+    bottom: 30px;         /* Distance from the bottom of the page */
+    left: 10%;            /* Center horizontally */
     transform: translateX(-50%); /* Offset by half the width of the container */
     display: flex;        /* Use flexbox to align logos */
     gap: 40px;            /* Space between the logos */
@@ -274,7 +275,7 @@ ul > li {
 }
 
 .sidebar-logos img {
-    max-width: 200px;  /* Adjust the logo size */
+    max-width: 400px;  /* Adjust the logo size */
     height: auto;     /* Maintain aspect ratio */
 }
 
