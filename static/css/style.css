@@ -101,7 +101,7 @@ a:hover {
 .navbar ul {
     list-style: none; /* Remove default bullet points */
     display: flex;
-    gap: 20px; /* Add spacing between items */
+    gap: 40px; /* Add spacing between items */
     padding: 0;
     margin: 0;
 }
