@@ -88,41 +88,55 @@ a:hover {
 }
 
 
-/* Navigation bar styles (inside the main content) */
+
+/* Reset styles for the navbar */
 .navbar {
-    background-color: #c14e4e; /* Dark background for the navbar */
-    padding: 10px 0; /* Padding for spacing */
-    margin-bottom: 50px; /* Space between navbar and content below */
-    border-radius: 10px; /* Slightly rounded corners */
-    text-align: center; /* Center-align the links horizontally */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+    background: none; /* Remove the bar background */
 }
 
 .navbar ul {
-    list-style-type: none; /* Remove bullet points */
-    margin: 0; /* No margin */
-    padding: 0; /* No padding */
-    display: flex; /* Display links horizontally */
-    justify-content: space-evenly; /* Even spacing between links */
+    list-style: none; /* Remove default bullet points */
+    display: flex;
+    gap: 20px; /* Add spacing between items */
+    padding: 0;
+    margin: 0;
 }
 
 .navbar li {
-    display: inline; /* Inline elements for links */
+    position: relative; /* Necessary for the pseudo-element */
 }
 
 .navbar a {
-    color: black; /* White text for links */
-    text-decoration: none; /* Remove underline */
-    padding: 10px 20px; /* Add spacing inside each link */
-    font-family: 'Roboto', Arial, sans-serif; /* Font for links */
-    font-size: 16px; /* Size of link text */
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Default text color */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: normal; /* Regular font weight */
+    transition: color 0.3s ease; /* Smooth color transition */
 }
 
+/* Line effect on hover */
+.navbar a::after {
+    content: ''; /* Add a pseudo-element */
+    display: block; /* Make it behave like a block element */
+    width: 0; /* Start with zero width */
+    height: 2px; /* Thickness of the line */
+    background: #8B0000; /* Line color */
+    margin: 0 auto; /* Center the line */
+    transition: width 0.3s ease; /* Smoothly increase width */
+}
+
+/* Hover effect */
 .navbar a:hover {
-    background-color: #d17a7a; /* Lighter background on hover */
-    border-radius: 5px; /* Rounded effect on hover */
-    color: #fff; /* White text on hover */
+    color: #8B0000; /* Change text color on hover */
 }
 
+.navbar a:hover::after {
+    width: 100%; /* Expand the line to full width */
+}
 
 /* Push content down to avoid overlapping with the navbar */
 .container {
