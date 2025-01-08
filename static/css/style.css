@@ -308,4 +308,18 @@ ul > li {
         color: #8B0000; /* Optional: Change the text color on hover */
     }
 
+/* Favicon */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4; /* Optional */
+}
+
+header img {
+    height: 50px; /* Adjust size */
+    width: auto;
+}
+
+
 
