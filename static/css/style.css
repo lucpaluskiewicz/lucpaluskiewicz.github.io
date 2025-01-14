@@ -356,16 +356,16 @@ body {
 
 .fixed-text {
     position: fixed;
-    top: 200px; /* Adjust to control vertical alignment */
-    right: 20px; /* Align to the right of the viewport or container */
-    width: calc(100% - 460px); /* Adjust width to account for the sidebar */
-    max-width: 800px; /* Optional: Set a maximum width for readability */
-    background-color: white; /* Background for better visibility */
-    padding: 15px; /* Padding for spacing inside the element */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow for emphasis */
-    z-index: 100; /* Ensure it stays on top of other elements */
-    text-align: justify; /* Align text for better readability */
-    overflow: hidden; /* Avoid content overflow issues */
+    top: 200px; /* Align with the top padding of main-content */
+    left: 300px; /* Match the sidebar width */
+    width: calc(100% - 300px); /* Ensure it takes the same width as main-content */
+    max-width: 1000px; /* Optional: Max width for large screens */
+    background-color: white; /* Plain white background */
+    padding: 20px; /* Match the padding of main-content */
+    margin: 0 auto; /* Center text within the fixed area */
+    text-align: justify; /* Ensure consistent text alignment */
+    box-shadow: none; /* Remove any shadow */
+    z-index: 100; /* Keep above other elements */
 }
 
 
