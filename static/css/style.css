@@ -321,5 +321,36 @@ header img {
     width: auto;
 }
 
+/* Style for the top banner */
+.top-banner {
+    position: fixed; /* Makes it fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Make it stretch across the entire width */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    background-color: transparent; /* Optional: Use a background if the image isn't full-width */
+    text-align: center; /* Center the image */
+}
+
+.top-banner img {
+    width: 100%; /* Make the image span the full width of the page */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Add some padding to prevent content from being hidden behind the banner */
+body {
+    margin-top: 200px; /* Adjust based on the height of the banner */
+}
+
+@media screen and (max-width: 768px) {
+    .top-banner img {
+        height: 150px; /* Adjust height for smaller screens */
+    }
+
+    body {
+        margin-top: 150px; /* Match the banner's height */
+    }
+}
+
 
 
