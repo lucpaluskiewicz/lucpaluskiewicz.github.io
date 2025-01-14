@@ -352,6 +352,17 @@ body {
     margin-top: 100px; /* Add space equal to the banner height */
 }
 
+/* fixed main content */
+
+.fixed-text {
+    position: fixed;
+    top: 150px; /* Adjust this value to position the text vertically */
+    left: 50px; /* Adjust this value to position the text horizontally */
+    z-index: 100; /* Ensure it stays above other elements if needed */
+    background-color: white; /* Optional: Add a background for better visibility */
+    padding: 10px; /* Optional: Add padding around the text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
+}
 
 
 
