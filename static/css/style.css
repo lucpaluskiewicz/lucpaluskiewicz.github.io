@@ -356,12 +356,16 @@ body {
 
 .fixed-text {
     position: fixed;
-    top: 150px; /* Adjust this value to position the text vertically */
-    left: 50px; /* Adjust this value to position the text horizontally */
-    z-index: 100; /* Ensure it stays above other elements if needed */
-    background-color: white; /* Optional: Add a background for better visibility */
-    padding: 10px; /* Optional: Add padding around the text */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
+    top: 200px; /* Adjust to control vertical alignment */
+    right: 20px; /* Align to the right of the viewport or container */
+    width: calc(100% - 460px); /* Adjust width to account for the sidebar */
+    max-width: 800px; /* Optional: Set a maximum width for readability */
+    background-color: white; /* Background for better visibility */
+    padding: 15px; /* Padding for spacing inside the element */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow for emphasis */
+    z-index: 100; /* Ensure it stays on top of other elements */
+    text-align: justify; /* Align text for better readability */
+    overflow: hidden; /* Avoid content overflow issues */
 }
 
 
