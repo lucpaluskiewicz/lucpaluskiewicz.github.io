@@ -8,7 +8,7 @@
 /* Fixed left column for contact and main information */
 .sidebar {
     width: 400px; /* Width of the sidebar, adjust as needed */
-    background-color: #f0d3d3; /* Background color for sidebar */
+    background-color: #e1d2bc; /* Background color for sidebar */
     padding: 20px; /* Inner spacing inside the sidebar */
     position: fixed; /* Fix the sidebar position */
     top: 0; /* Align to the top */
