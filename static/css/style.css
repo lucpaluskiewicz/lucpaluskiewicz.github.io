@@ -356,17 +356,17 @@ body {
 
 .fixed-text {
     position: fixed;
-    top: 200px; /* Align with the top padding of main-content */
-    left: 300px; /* Match the sidebar width */
-    width: calc(100% - 300px); /* Ensure it takes the same width as main-content */
-    max-width: 1000px; /* Optional: Max width for large screens */
+    top: 200px; /* Adjust based on your layout */
+    left: 300px; /* Matches the width of the sidebar */
+    width: calc(100% - 300px); /* Dynamically aligns with the right column */
     background-color: white; /* Plain white background */
-    padding: 20px; /* Match the padding of main-content */
-    margin: 0 auto; /* Center text within the fixed area */
-    text-align: justify; /* Ensure consistent text alignment */
-    box-shadow: none; /* Remove any shadow */
+    padding: 20px; /* Matches the padding inside the main content */
+    box-shadow: none; /* No shadow */
+    text-align: justify; /* Keep text justified */
     z-index: 100; /* Keep above other elements */
+    border: none; /* No border for a cleaner look */
 }
+
 
 
 
