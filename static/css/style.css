@@ -20,16 +20,21 @@
 }
 
 /* Right column for scrollable content */
+/* Adjust the main content to account for the banner */
 .main-content {
-    margin-left: 460px; /* Space between the sidebar and main content, adjust for alignment */
-    padding: 20px; /* Inner spacing for the main content area */
-    overflow-y: auto; /* Enable vertical scrolling for the main content */
-    flex-grow: 1; /* Allow the main content to expand to available space */
-    background-color: #ffffff; /* Background color for the main content */
-    font-family: 'Roboto', Arial, sans-serif; /* Font family for main content */
-    color: #333; /* Text color for readability */
-    /* You can modify line spacing, margin, or add additional styles here */
+    margin-left: 460px; /* Align with the sidebar */
+    padding: 20px;
+    padding-top: 120px; /* Reserve space for the banner (adjust based on banner height) */
+    overflow-y: auto; /* Enable scrolling for long content */
+    flex-grow: 1; /* Allow the content to fill the remaining space */
+    background-color: #ffffff; /* Background color for readability */
+    position: relative; /* Default relative positioning */
+
+    /* Ensure content is fixed when space allows */
+    max-height: calc(100vh - 120px); /* Restrict height to the viewport minus the banner */
+    overflow: hidden; /* Prevent content from spilling out when fixed */
 }
+
 
 /* General styles for headers and links */
 h1, h2, h3 {
@@ -324,21 +329,22 @@ header img {
 
 /* Style for the top banner */
 .top-banner {
-    position: fixed; /* Makes it fixed at the top */
+    position: fixed; /* Keeps the banner fixed at the top */
     top: 0;
-    left: 400px; /* Exactly match the sidebar width */
-    width: calc(100% - 400px); /* Adjust to fill the space to the right of the sidebar */
-    z-index: 1000; /* Ensure it stays on top of other elements */
-    height: 100px; /* Adjust the height for the thin strip */
-    overflow: hidden; /* Crop the image to fit the banner height */
-    background-color: white; /* Optional: Prevent visual artifacts */
+    left: 400px; /* Align the banner to the right of the sidebar */
+    width: calc(100% - 400px); /* Make the banner span the right column */
+    height: 100px; /* Height of the banner */
+    z-index: 1000; /* Ensure it appears above other elements */
+    overflow: hidden; /* Prevent overflow */
+    background-color: #ffffff; /* Optional background color */
 }
 
+
 .top-banner img {
-    width: 100%; /* Make the image span the full width of the banner */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the banner area */
-    object-position: 20% 60%; /* Focus on the middle 40% of the image */
+    width: 100%; /* Fill the entire width of the banner */
+    height: 100%; /* Fill the height of the banner */
+    object-fit: cover; /* Crop and scale the image proportionally */
+    object-position: center; /* Focus on the middle section of the image */
 }
 
 /* Prevent content from overlapping the banner */
