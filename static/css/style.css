@@ -321,36 +321,30 @@ header img {
     width: auto;
 }
 
+
 /* Style for the top banner */
 .top-banner {
     position: fixed; /* Makes it fixed at the top */
     top: 0;
-    left: 0;
-    width: 100%; /* Make it stretch across the entire width */
+    left: 400px; /* Start after the sidebar */
+    width: calc(100% - 400px); /* Adjust to fill the space to the right of the sidebar */
     z-index: 1000; /* Ensure it stays on top of other elements */
-    background-color: transparent; /* Optional: Use a background if the image isn't full-width */
-    text-align: center; /* Center the image */
+    height: 100px; /* Adjust the height for the thin strip */
+    overflow: hidden; /* Crop the image to fit the banner height */
 }
 
 .top-banner img {
-    width: 100%; /* Make the image span the full width of the page */
+    width: 100%; /* Make the image span the full width of the banner */
     height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the banner area */
+    object-position: 50% 40%; /* Focus on the middle 40% of the image */
 }
 
-/* Add some padding to prevent content from being hidden behind the banner */
+/* Prevent content from overlapping the banner */
 body {
-    margin-top: 200px; /* Adjust based on the height of the banner */
+    margin-top: 100px; /* Add space equal to the banner height */
 }
 
-@media screen and (max-width: 768px) {
-    .top-banner img {
-        height: 150px; /* Adjust height for smaller screens */
-    }
-
-    body {
-        margin-top: 150px; /* Match the banner's height */
-    }
-}
 
 
 
