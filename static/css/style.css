@@ -95,18 +95,28 @@ a:hover {
 
 
 /* Reset styles for the navbar */
-.navbar {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center; /* Center the navigation items */
-    background: none; /* Remove the bar background */
+.navbar a::after {
+    content: ''; /* Add a pseudo-element */
+    display: block; /* Make it behave like a block element */
+    height: 2px; /* Thickness of the line */
+    background: #8B0000; /* Line color */
+    margin: 0 auto; /* Center the line */
+    transition: width 0.3s ease; /* Smoothly increase width */
+    position: sticky; /* Keeps the navbar consistent */
+    top: 0; /* Ensures it stays at the top */
+    z-index: 10; /* Keeps it above other elements */
+    background-color: white; /* Solid white background */
+    width: calc(100% - 300px); /* Adjust for sidebar width */
+    left: 300px; /* Align with the right column */
+    padding: 10px 0; /* Add some padding for spacing */
+    text-align: center; /* Center align the items */
+    box-shadow: none; /* Remove the shadow */
 }
 
 .navbar ul {
     list-style: none; /* Remove default bullet points */
     display: flex;
-    gap: 40px; /* Add spacing between items */
+    gap: 60px; /* Add spacing between items */
     padding: 0;
     margin: 0;
 }
