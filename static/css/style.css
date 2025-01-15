@@ -357,7 +357,7 @@ body {
 .fixed-text {
     position: fixed;
     top: 200px; /* Adjust based on the exact height of your banner */
-    left: 300px; /* Matches the sidebar width */
+    left: 600px; /* Matches the sidebar width */
     width: calc(100% - 300px); /* Dynamically adjusts to the right column */
     background-color: white; /* Clean white background */
     padding: 20px; /* Matches the padding inside the main content */
