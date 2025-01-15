@@ -356,15 +356,16 @@ body {
 
 .fixed-text {
     position: fixed;
-    top: 200px; /* Adjust based on your layout */
-    left: 300px; /* Matches the width of the sidebar */
-    width: calc(100% - 300px); /* Dynamically aligns with the right column */
-    background-color: white; /* Plain white background */
+    top: 200px; /* Adjust based on the exact height of your banner */
+    left: 300px; /* Matches the sidebar width */
+    width: calc(100% - 300px); /* Dynamically adjusts to the right column */
+    background-color: white; /* Clean white background */
     padding: 20px; /* Matches the padding inside the main content */
-    box-shadow: none; /* No shadow */
-    text-align: justify; /* Keep text justified */
-    z-index: 100; /* Keep above other elements */
-    border: none; /* No border for a cleaner look */
+    margin-left: 0; /* Ensures no additional offset */
+    text-align: justify; /* For consistent alignment */
+    z-index: 100; /* Stays above other elements */
+    box-shadow: none; /* Remove any shadow */
+    border: none; /* Ensure there’s no border */
 }
 
 
