@@ -2,100 +2,376 @@
 .container {
     display: flex; /* Use flexbox for the layout */
     height: 100vh; /* Full height of the viewport */
-    flex-direction: row; /* Align items horizontally */
+    /* You can modify the height or add a min-height for larger screens */
 }
 
 /* Fixed left column for contact and main information */
 .sidebar {
     width: 400px; /* Width of the sidebar, adjust as needed */
     background-color: #e1d2bc; /* Background color for sidebar */
-    padding: 20px; /* Inner spacing */
-    position: fixed; /* Fix sidebar position */
+    padding: 20px; /* Inner spacing inside the sidebar */
+    position: fixed; /* Fix the sidebar position */
     top: 0; /* Align to the top */
     bottom: 0; /* Align to the bottom */
     border-right: 1px solid #ddd; /* Vertical dividing line */
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    font-family: 'Roboto', Arial, sans-serif; /* Sidebar font */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for visual separation */
+    font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
+    /* You can adjust the font size, line height, or add custom padding */
 }
 
 /* Right column for scrollable content */
+/* Adjust the main content to account for the banner */
 .main-content {
-    margin-left: 400px; /* Align with the sidebar */
+    margin-left: 460px; /* Align with the sidebar */
     padding: 20px;
-    padding-top: 120px; /* Reserve space for the banner */
+    padding-top: 120px; /* Reserve space for the banner (adjust based on banner height) */
     overflow-y: auto; /* Enable scrolling for long content */
-    flex-grow: 1; /* Fill remaining space */
-    background-color: #ffffff; /* Background color */
-    max-height: calc(100vh - 120px); /* Viewport height minus banner */
-    position: relative; /* Default positioning */
+    flex-grow: 1; /* Allow the content to fill the remaining space */
+    background-color: #ffffff; /* Background color for readability */
+    position: relative; /* Default relative positioning */
+
+    /* Ensure content is fixed when space allows */
+    max-height: calc(100vh - 120px); /* Restrict height to the viewport minus the banner */
+    overflow: hidden; /* Prevent content from spilling out when fixed */
 }
 
-/* Fixed main content */
-.fixed-text {
-    position: fixed;
-    top: 200px; /* Adjust for banner height */
-    left: 400px; /* Align with the sidebar */
-    width: calc(100% - 400px); /* Right column width */
-    background-color: white;
-    padding: 20px;
-    text-align: justify;
-    z-index: 100; /* Above other elements */
+
+/* General styles for headers and links */
+h1, h2, h3 {
+    color: #333; /* Dark text for headers for better readability */
+    font-family: 'Roboto', Arial, sans-serif; /* Elegant serif font for headers */
+    /* You can adjust font size, weight, or letter spacing */
 }
 
-/* Navbar styles */
-.navbar {
-    position: sticky;
-    top: 0; /* Always visible at the top */
-    z-index: 10; /* Above other elements */
-    background-color: white;
-    width: 100%; /* Full width */
-    padding: 10px 0; /* Add spacing */
-    text-align: center;
-    box-shadow: none; /* No shadow */
+a {
+    color: #8B0000; /* Dark brick color for links */
+    text-decoration: none; /* No underline for links by default */
 }
 
-/* Prevent overlapping of banner and content */
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    margin-top: 100px; /* Add space for the top banner */
+a:hover {
+    text-decoration: underline; /* Underline links on hover for emphasis */
 }
 
-/* Top banner */
-.top-banner {
-    position: fixed;
-    top: 0;
-    left: 400px; /* Align with the sidebar */
-    width: calc(100% - 400px); /* Right column */
-    height: 100px; /* Height of the banner */
-    z-index: 1000; /* Above all other elements */
-    background-color: white;
-    overflow: hidden;
+/* Styling the email in brick color */
+.email {
+    color: #8B0000; /* Dark brick color for email links */
+    /* You can add bold text or a unique font style for email links */
 }
 
-.top-banner img {
-    width: 100%; /* Full width of the banner */
-    height: 100%; /* Full height of the banner */
-    object-fit: cover; /* Crop proportionally */
+/* Style for logos in the sidebar */
+.sidebar img {
+    width: 20px; /* Width of each logo, adjust as needed */
+    height: 20px; /* Height of each logo */
+    vertical-align: middle; /* Align logos with text vertically */
+    margin-right: 10px; /* Space between logo and adjacent text */
+    /* You can add hover effects or adjust spacing here */
+}
+
+/* Space for profile image */
+.profile-image {
+    margin-top: 20px; /* Space above the profile image */
+    width: 150px; /* Diameter of the circular profile image */
+    height: 150px; /* Height of the profile image (same as width for circle) */
+    border-radius: 50%; /* Circular image */
+    display: block; /* Ensures image behaves as a block element */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a slight 3D effect */
+    /* You can adjust the shadow or add a border around the image */
 }
 
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 768px) {
     .sidebar {
-        width: 100%; /* Full width on small screens */
-        position: relative;
-        height: auto; /* Fit content height */
+        width: 100%; /* Make sidebar full width for small screens */
+        position: relative; /* Change from fixed to relative for flow layout */
+        height: auto; /* Adjust height to fit content */
+        /* You can also hide the sidebar with display: none; on smaller screens */
     }
 
-    .main-content,
-    .fixed-text {
-        margin-left: 0; /* Reset left margin for small screens */
-        width: 100%; /* Full width for mobile view */
-    }
-
-    .top-banner {
-        left: 0;
-        width: 100%; /* Full width banner */
+    .main-content {
+        margin-left: 0; /* Reset margin to 0 for a seamless mobile view */
     }
 }
+
+
+/* Reset styles for the navbar */
+.navbar ul {
+    list-style: none; /* Remove default bullet points */
+    display: flex;
+    gap: 60px; /* Add spacing between items */
+    padding: 0;
+    margin: 0;
+    justify-content: center; /* Center align the navbar items */
+}
+
+.navbar li {
+    position: relative; /* Necessary for the pseudo-element animation */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Default text color */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: normal; /* Regular font weight */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Line effect below the link */
+.navbar a::after {
+    content: ''; /* Add a pseudo-element */
+    display: block; /* Make it behave like a block element */
+    height: 2px; /* Thickness of the line */
+    background: #8B0000; /* Line color */
+    margin: 0 auto; /* Center the line */
+    transition: width 0.3s ease; /* Smoothly increase width */
+    width: 0; /* Start with zero width */
+}
+
+/* Hover effect */
+.navbar a:hover {
+    color: #8B0000; /* Change text color on hover */
+}
+
+.navbar a:hover::after {
+    width: 100%; /* Expand the line to full width */
+}
+
+/* Navbar container styling */
+.navbar {
+    position: sticky; /* Ensures it remains consistent relative to the viewport */
+    top: 0; /* Keeps it at the top of its parent/container */
+    z-index: 10; /* Ensures it appears above other elements */
+    background-color: white; /* Matches the background */
+    width: 100%; /* Full width */
+    box-shadow: none; /* No shadow */
+    padding: 10px 0; /* Add some padding for spacing */
+    text-align: center; /* Center align the items */
+}
+
+/* Push content down to avoid overlapping with the navbar */
+.container {
+    margin-top: 30px; /* Adjust this based on navbar height */
+}
+
+/* Styles for toggle button and abstract */
+    .abstract-toggle {
+        cursor: pointer;
+        color: #8B0000; /* Dark brick color */
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    .abstract {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease, padding 0.3s ease;
+        background-color: #f9f9f9;
+        margin-top: 15px; /* Space between the title and abstract */
+        padding: 0 10px;
+        border: 1px solid #ddd;
+        font-size: 14px;
+        line-height: 1.8; /* Increased interline spacing */
+        text-align: justify; /* Justify text */
+    }
+
+    .abstract.open {
+        max-height: 200px; /* Adjust this value for the abstract's height */
+        padding: 10px 10px;
+    }
+
+    .abstract-toggle.open::after {
+        content: "▼"; /* Down arrow */
+    }
+
+    .abstract-toggle.closed::after {
+        content: "►"; /* Right arrow */
+    }
+
+    /* Spacing between items */
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul > li {
+        margin-bottom: 100px; /* Add more space between list items */
+    }
+
+    /* Optional: style for the status */
+    .status {
+        font-style: italic;
+        color: #555;
+    }
+
+/* Styles for publication title */
+ul > li > .title {
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px; /* Space between title and other elements */
+}
+
+/* Styles for publication status */
+ul > li > .status {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px; /* Space between status and other elements */
+    display: block; /* Ensure it appears on its own line */
+}
+
+/* Styles for author names */
+ul > li > .authors {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.8; /* Increase line height for better readability */
+    margin-bottom: 15px; /* Space between authors and the next section */
+}
+
+/* General spacing for list items */
+ul > li {
+    margin-bottom: 40px; /* Space between publications */
+}
+
+
+/* Styles for toggle button and abstract */
+        .abstract-toggle {
+            cursor: pointer;
+            color: #8B0000; /* Dark brick color */
+            font-weight: bold;
+            margin-left: 5px;
+        }
+
+        .abstract {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            background-color: #f9f9f9;
+            margin-top: 10px;
+            padding: 0 10px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .abstract.open {
+            max-height: 200px; /* Adjust this value for the abstract's height */
+            padding: 10px 10px;
+        }
+
+        .abstract-toggle.open::after {
+            content: "▼"; /* Down arrow */
+        }
+
+        .abstract-toggle.closed::after {
+            content: "►"; /* Right arrow */
+        }
+
+        /* Spacing between items */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul > li {
+            margin-bottom: 30px; /* Add space between list items */
+        }
+
+        /* Optional: style for the status */
+        .status {
+            font-style: italic;
+            color: #555;
+        }
+
+
+
+/* Fix logos at the bottom of the sidebar */
+.sidebar-logos {
+    position: fixed;      /* Fix to the bottom */
+    bottom: 30px;         /* Distance from the bottom of the page */
+    left: 10%;            /* Center horizontally */
+    transform: translateX(-50%); /* Offset by half the width of the container */
+    display: flex;        /* Use flexbox to align logos */
+    gap: 40px;            /* Space between the logos */
+}
+
+.sidebar-logos a {
+    display: inline-block; /* Make links block level for better control */
+}
+
+.sidebar-logos img {
+    max-width: 400px;  /* Adjust the logo size */
+    height: auto;     /* Maintain aspect ratio */
+}
+
+
+    /* Regular link styling */
+    .hover-bold {
+        text-decoration: none; /* Remove underline */
+        color: #000; /* Default text color */
+        font-weight: normal; /* Regular weight */
+        transition: font-weight 0.2s ease; /* Smooth transition to bold */
+    }
+
+    /* Hover effect */
+    .hover-bold:hover {
+        font-weight: bold; /* Make the text bold */
+        color: #8B0000; /* Optional: Change the text color on hover */
+    }
+
+/* Favicon */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4; /* Optional */
+}
+
+header img {
+    height: 50px; /* Adjust size */
+    width: auto;
+}
+
+
+/* Style for the top banner */
+.top-banner {
+    position: fixed; /* Keeps the banner fixed at the top */
+    top: 0;
+    left: 400px; /* Align the banner to the right of the sidebar */
+    width: calc(100% - 400px); /* Make the banner span the right column */
+    height: 100px; /* Height of the banner */
+    z-index: 1000; /* Ensure it appears above other elements */
+    overflow: hidden; /* Prevent overflow */
+    background-color: #ffffff; /* Optional background color */
+}
+
+
+.top-banner img {
+    width: 100%; /* Fill the entire width of the banner */
+    height: 100%; /* Fill the height of the banner */
+    object-fit: cover; /* Crop and scale the image proportionally */
+    object-position: center; /* Focus on the middle section of the image */
+}
+
+/* Prevent content from overlapping the banner */
+body {
+    margin-top: 100px; /* Add space equal to the banner height */
+}
+
+/* fixed main content */
+
+.fixed-text {
+    position: fixed;
+    top: 200px; /* Adjust based on the exact height of your banner */
+    left: 460px; /* Matches the sidebar width */
+    width: calc(100% - 300px); /* Dynamically adjusts to the right column */
+    background-color: white; /* Clean white background */
+    padding: 20px; /* Matches the padding inside the main content */
+    margin-left: 0; /* Ensures no additional offset */
+    text-align: justify; /* For consistent alignment */
+    z-index: 100; /* Stays above other elements */
+    box-shadow: none; /* Remove any shadow */
+    border: none; /* Ensure there’s no border */
+}
+
+
+
+
