@@ -376,6 +376,10 @@ body {
     box-shadow: none; /* Remove any shadow */
     border: none; /* Ensure there’s no border */
     font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
+    white-space: normal; /* Allows text wrapping */
+    max-width: 100%; /* Prevents overflow */
+    word-break: break-word; /* Breaks long words */
+    overflow-wrap: break-word; /* Ensures better wrapping for long content */
 }
 
 
