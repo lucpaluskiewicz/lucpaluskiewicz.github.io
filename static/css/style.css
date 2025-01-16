@@ -33,6 +33,8 @@
     /* Ensure content is fixed when space allows */
     max-height: calc(100vh - 120px); /* Restrict height to the viewport minus the banner */
     overflow: hidden; /* Prevent content from spilling out when fixed */
+
+    font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
 }
 
 
@@ -147,6 +149,7 @@ a:hover {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
     align-items: center; /* Centers items vertically */
     height: 50px; /* Set height */
+    font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
 }
 
 /* Push content down to avoid overlapping with the navbar */
@@ -372,6 +375,7 @@ body {
     z-index: 100; /* Stays above other elements */
     box-shadow: none; /* Remove any shadow */
     border: none; /* Ensure there’s no border */
+    font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
 }
 
 
