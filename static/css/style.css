@@ -93,36 +93,18 @@ a:hover {
 }
 
 
-
 /* Reset styles for the navbar */
-.navbar a::after {
-    content: ''; /* Add a pseudo-element */
-    display: block; /* Make it behave like a block element */
-    height: 2px; /* Thickness of the line */
-    background: #8B0000; /* Line color */
-    margin: 0 auto; /* Center the line */
-    transition: width 0.3s ease; /* Smoothly increase width */
-    position: sticky; /* Keeps the navbar consistent */
-    top: 0; /* Ensures it stays at the top */
-    z-index: 10; /* Keeps it above other elements */
-    background-color: white; /* Solid white background */
-    width: calc(100% - 300px); /* Adjust for sidebar width */
-    left: 300px; /* Align with the right column */
-    padding: 10px 0; /* Add some padding for spacing */
-    text-align: center; /* Center align the items */
-    box-shadow: none; /* Remove the shadow */
-}
-
 .navbar ul {
     list-style: none; /* Remove default bullet points */
     display: flex;
     gap: 60px; /* Add spacing between items */
     padding: 0;
     margin: 0;
+    justify-content: center; /* Center align the navbar items */
 }
 
 .navbar li {
-    position: relative; /* Necessary for the pseudo-element */
+    position: relative; /* Necessary for the pseudo-element animation */
 }
 
 .navbar a {
@@ -133,15 +115,15 @@ a:hover {
     transition: color 0.3s ease; /* Smooth color transition */
 }
 
-/* Line effect on hover */
-.navbar {
-    position: sticky; /* Ensures it remains consistent relative to the viewport or parent */
-    top: 0; /* Keeps it at the top of its parent/container */
-    z-index: 10; /* Ensures it appears above other elements */
-    background-color: white; /* Matches the background */
-    width: calc(100% - 300px); /* Adjust for sidebar width */
-    left: 300px; /* Align with the right column */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds slight shadow for separation */
+/* Line effect below the link */
+.navbar a::after {
+    content: ''; /* Add a pseudo-element */
+    display: block; /* Make it behave like a block element */
+    height: 2px; /* Thickness of the line */
+    background: #8B0000; /* Line color */
+    margin: 0 auto; /* Center the line */
+    transition: width 0.3s ease; /* Smoothly increase width */
+    width: 0; /* Start with zero width */
 }
 
 /* Hover effect */
@@ -151,6 +133,18 @@ a:hover {
 
 .navbar a:hover::after {
     width: 100%; /* Expand the line to full width */
+}
+
+/* Navbar container styling */
+.navbar {
+    position: sticky; /* Ensures it remains consistent relative to the viewport */
+    top: 0; /* Keeps it at the top of its parent/container */
+    z-index: 10; /* Ensures it appears above other elements */
+    background-color: white; /* Matches the background */
+    width: 100%; /* Full width */
+    box-shadow: none; /* No shadow */
+    padding: 10px 0; /* Add some padding for spacing */
+    text-align: center; /* Center align the items */
 }
 
 /* Push content down to avoid overlapping with the navbar */
