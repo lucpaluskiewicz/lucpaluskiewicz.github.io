@@ -370,7 +370,7 @@ body {
 
 .fixed-text {
     position: fixed;
-    top: 50px;
+    top: 250px;
     left: 460px;
     width: calc(100% - 300px - 40px); /* Adjust to subtract padding */
     background-color: white;
