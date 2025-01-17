@@ -370,8 +370,9 @@ body {
 
 .fixed-text {
     position: fixed;
-    top: 150px; /* Increase or decrease based on your banner height */
+    top: 250px; /* Increase or decrease based on your banner height */
     left: 460px;
+    right: 50px;
     width: calc(100% - 300px);
     background-color: white;
     padding: 20px;
