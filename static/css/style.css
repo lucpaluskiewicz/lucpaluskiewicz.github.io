@@ -370,21 +370,21 @@ body {
 
 .fixed-text {
     position: fixed;
-    top: 350 px; /* Adjust based on the exact height of your banner */
-    left: 460px; /* Matches the sidebar width */
-    width: calc(100% - 300px); /* Dynamically adjusts to the right column */
-    background-color: white; /* Clean white background */
-    padding: 20px; /* Matches the padding inside the main content */
-    margin-left: 0; /* Ensures no additional offset */
-    text-align: justify; /* For consistent alignment */
-    z-index: 100; /* Stays above other elements */
-    box-shadow: none; /* Remove any shadow */
-    border: none; /* Ensure there’s no border */
-    font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
-    white-space: normal; /* Allows text wrapping */
-    max-width: 100%; /* Prevents overflow */
-    word-break: break-word; /* Breaks long words */
-    overflow-wrap: break-word; /* Ensures better wrapping for long content */
+    top: 150px; /* Increase or decrease based on your banner height */
+    left: 460px;
+    width: calc(100% - 300px);
+    background-color: white;
+    padding: 20px;
+    margin-left: 0;
+    text-align: justify;
+    z-index: 100;
+    box-shadow: none;
+    border: none;
+    font-family: 'Roboto', Arial, sans-serif;
+    white-space: normal;
+    max-width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 
