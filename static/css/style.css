@@ -139,18 +139,22 @@ a:hover {
 
 .navbar {
     position: fixed; /* Ensures the navbar is always at the same position */
-    top: 150px; /* Sticks the navbar to the top of the viewport */
+    top: 170px; /* Sticks the navbar to the top of the viewport */
     left: 400px; /* Aligns the navbar to the right of the sidebar */
-    width: calc(100% - 300px);  /*Spans the remaining width of the page (excluding the sidebar) */
+    width: calc(100% - 400px); /* Spans the remaining width of the page (excluding the sidebar) */
     z-index: 1000; /* Keeps it above other content */
     background-color: white; /* Matches the background color */
-    padding: 20px 0; /* Add padding for spacing */
+    padding: 20px 0; /* Adds padding for spacing above and below the navbar */
     text-align: center; /* Centers the navbar items */
-    /*box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  Adds a subtle shadow */
-    align-items: center; /* Centers items vertically */
+    display: flex; /* Ensures items are arranged in a row */
+    justify-content: center; /* Centers the items horizontally */
+    align-items: center; /* Vertically aligns items */
+    gap: 40px; /* Adds 30px of spacing between navbar items */
+    font-family: 'Roboto', Arial, sans-serif; /* Font family for the navbar text */
     height: 50px; /* Set height */
-    font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); Adds a subtle shadow if needed */
 }
+
 
 /* Push content down to avoid overlapping with the navbar */
 .container {
@@ -346,6 +350,7 @@ header img {
     z-index: 1000; /* Ensure it appears above other elements */
     overflow: hidden; /* Prevent overflow */
     background-color: #ffffff; /* Optional background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 
