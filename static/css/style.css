@@ -382,7 +382,7 @@ header img {
 
 /* Prevent content from overlapping the banner */
 body {
-    margin-top: 100px; /* Add space equal to the banner height */
+    margin-top: 300px; /* Add space equal to the banner height */
 }
 
 body {
