@@ -382,11 +382,11 @@ header img {
 
 /* Prevent content from overlapping the banner */
 body {
-    margin-top: 250px; /* Add space equal to the banner height */
+    margin-top: 350px; /* Add space equal to the banner height */
 }
 
 body {
-    height: min-content; /* Ensure full height */
+     /*height: min-content; Ensure full height */
     margin: 0;    /* Remove default margin */
     padding: 0;   /* Remove default padding */
     overflow-x: hidden; /* Prevent horizontal scroll */
