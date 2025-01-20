@@ -24,7 +24,7 @@
 .main-content {
     margin-left: 460px; /* Align with the sidebar */
     padding: 20px;
-    padding-top: 120px; /* Reserve space for the banner (adjust based on banner height) */
+    padding-top: 200px; /* Reserve space for the banner (adjust based on banner height) */
     overflow-y: auto; /* Enable scrolling for long content */
     flex-grow: 1; /* Allow the content to fill the remaining space */
     background-color: #ffffff; /* Background color for readability */
@@ -32,7 +32,6 @@
 
     /* Ensure content is fixed when space allows */
     max-height: calc(100vh - 120px); /* Restrict height to the viewport minus the banner */
-    overflow: hidden; /* Prevent content from spilling out when fixed */
 
     font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
 }
