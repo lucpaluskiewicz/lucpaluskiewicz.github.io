@@ -385,8 +385,8 @@ body {
     margin-top: 100px; /* Add space equal to the banner height */
 }
 
-html, body {
-    height: 100%; /* Ensure full height */
+body {
+    height: min-content; /* Ensure full height */
     margin: 0;    /* Remove default margin */
     padding: 0;   /* Remove default padding */
     overflow-x: hidden; /* Prevent horizontal scroll */
