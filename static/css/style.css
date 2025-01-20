@@ -45,6 +45,19 @@ h1, h2, h3 {
     /* You can adjust font size, weight, or letter spacing */
 }
 
+h1 {
+    font-size: 36px; /* Set the font size for h1 */
+    margin-bottom: 20px; /* Adds space below h1 */
+
+}
+
+h2 {
+    font-size: 30px; /* Set the font size for h2 */
+    margin-bottom: 16px; /* Adds space below h2 */
+
+}
+
+
 a {
     color: #8B0000; /* Dark brick color for links */
     text-decoration: none; /* No underline for links by default */
