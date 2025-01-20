@@ -31,7 +31,7 @@
     position: relative; /* Default relative positioning */
 
     /* Ensure content is fixed when space allows */
-    max-height: calc(100vh - 120px); /* Restrict height to the viewport minus the banner */
+    /* max-height: calc(100vh - 120px); Restrict height to the viewport minus the banner */
 
     font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
 }
