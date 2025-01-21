@@ -423,6 +423,7 @@ body {
         align-items: center; /* Centers the content horizontally */
         margin: 0;
         padding: 0;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
     }
 
     .container {
@@ -481,9 +482,12 @@ body {
         font-size: 1rem;
         line-height: 1.5;
     }
+
+    .abstract {
+        white-space: pre-wrap; /* Automatically go to a new line for text */
+        word-wrap: break-word; /* Ensure long words break properly */
+    }
 }
-
-
 
 
 
