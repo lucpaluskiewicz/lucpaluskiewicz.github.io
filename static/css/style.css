@@ -444,10 +444,14 @@ body {
         margin-bottom: 10px;
     }
 
-    .nav {
+    .top-banner img {
+    display: none !important;
+    }
+
+    .navbar {
         order: 2; /* Place navigation below the banner */
         display: flex;
-        flex-direction: column;
+        flex-direction: column; /* Display navigation items in a column */
         width: 100%;
         margin-bottom: 10px;
     }
@@ -492,6 +496,7 @@ body {
         max-width: 95%;
         word-break: break-word;
         overflow-wrap: break-word;
+        max-height: 500px;
     }
 }
 
