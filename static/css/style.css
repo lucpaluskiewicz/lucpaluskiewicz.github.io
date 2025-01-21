@@ -414,7 +414,6 @@ body {
     overflow-wrap: break-word;
 }
 
-
 @media (max-width: 768px) {
     /* Apply styles for devices with a screen width of 768px or less */
     body {
@@ -445,12 +444,12 @@ body {
     }
 
     .top-banner img {
-    display: none !important;
+        display: none !important;
     }
 
     .navbar {
         order: 2; /* Place navigation below the banner */
-        /*display: flex;*/
+        display: flex;
         flex-direction: column; /* Display navigation items in a column */
         width: 100%;
         margin-bottom: 10px;
@@ -499,6 +498,7 @@ body {
         max-height: 500px;
     }
 }
+
 
 
 
