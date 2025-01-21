@@ -201,7 +201,7 @@ a:hover {
     }
 
     .abstract.open {
-        max-height: 200px; /* Adjust this value for the abstract's height */
+        /*max-height: 500px;  Adjust this value for the abstract's height */
         padding: 10px 10px;
     }
 
@@ -458,7 +458,7 @@ body {
     }
 
     .banner-image {
-        display: none; /* Remove picture/banner for small screens */
+        display: none !important; /* Force it to override other styles */
     }
 
     .nav-item {
