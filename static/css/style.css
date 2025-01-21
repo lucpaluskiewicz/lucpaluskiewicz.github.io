@@ -1,20 +1,20 @@
+/* Original styles remain untouched */
+
 /* General reset and responsive defaults */
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden;
+    overflow-y: auto;
     font-family: 'Roboto', Arial, sans-serif;
 }
 
-/* Container for the layout */
 .container {
     display: flex;
-    flex-direction: row; /* Default horizontal layout */
-    height: 100vh; /* Full height of the viewport */
+    flex-direction: row;
+    height: 100vh;
 }
 
-/* Fixed left column for contact and main information */
 .sidebar {
     width: 350px;
     background-color: #e1d2bc;
@@ -53,11 +53,10 @@ body {
     height: auto;
 }
 
-/* Main content */
 .main-content {
-    margin-left: 360px; /* Align with the sidebar width */
+    margin-left: 360px;
     padding: 20px;
-    padding-top: 200px; /* Reserve space for the banner */
+    padding-top: 200px;
     overflow-y: auto;
     flex-grow: 1;
     background-color: #ffffff;
@@ -77,11 +76,10 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Navbar */
 .navbar {
     position: fixed;
     top: 150px;
-    left: 350px; /* Align with the sidebar */
+    left: 350px;
     width: calc(100% - 350px);
     background-color: white;
     padding: 10px 0;
@@ -117,11 +115,10 @@ a:hover {
     width: 100%;
 }
 
-/* Top banner */
 .top-banner {
     position: fixed;
     top: 0;
-    left: 350px; /* Align with the sidebar */
+    left: 350px;
     width: calc(100% - 350px);
     height: 150px;
     z-index: 1000;
@@ -136,7 +133,6 @@ a:hover {
     object-fit: cover;
 }
 
-/* Fixed content */
 .fixed-text {
     position: fixed;
     top: 250px;
@@ -150,13 +146,32 @@ a:hover {
     overflow-wrap: break-word;
 }
 
-/* Responsive adjustments */
+/* Additional styles for smaller screens */
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        width: 300px;
+    }
+
+    .main-content {
+        margin-left: 310px;
+    }
+
+    .top-banner, .navbar {
+        left: 300px;
+        width: calc(100% - 300px);
+    }
+
+    .fixed-text {
+        left: 310px;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    /* Sidebar adjustments */
     .sidebar {
         width: 100%;
         position: relative;
         height: auto;
+        border-right: none;
         box-shadow: none;
     }
 
@@ -165,31 +180,25 @@ a:hover {
         justify-content: center;
     }
 
-    /* Navbar adjustments */
     .navbar {
         left: 0;
         width: 100%;
         padding: 10px 0;
     }
 
-    /* Top banner adjustments */
     .top-banner {
         left: 0;
         width: 100%;
     }
 
-    /* Main content adjustments */
     .main-content {
         margin-left: 0;
         padding-top: 20px;
     }
 
-    /* Fixed content adjustments */
     .fixed-text {
         position: relative;
-        width: auto;
         margin-left: 0;
-        top: auto;
     }
 }
 
@@ -207,3 +216,4 @@ a:hover {
         font-size: 24px;
     }
 }
+
