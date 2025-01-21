@@ -450,7 +450,7 @@ body {
 
     .navbar {
         order: 2; /* Place navigation below the banner */
-        display: flex;
+        /*display: flex;*/
         flex-direction: column; /* Display navigation items in a column */
         width: 100%;
         margin-bottom: 10px;
@@ -466,7 +466,7 @@ body {
     }
 
     .nav-item {
-        margin-bottom: 5px; /* Space between navigation items */
+        margin-bottom: 10px; /* Space between navigation items */
     }
 
     img {
