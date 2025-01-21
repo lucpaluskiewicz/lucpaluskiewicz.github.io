@@ -424,6 +424,9 @@ body {
         margin: 0;
         padding: 0;
         overflow-x: hidden; /* Prevent horizontal scrolling */
+        max-width: 100%;
+        word-break: break-word;
+        overflow-wrap: break-word;
     }
 
     .container {
@@ -486,6 +489,9 @@ body {
     .abstract {
         white-space: pre-wrap; /* Automatically go to a new line for text */
         word-wrap: break-word; /* Ensure long words break properly */
+        max-width: 95%;
+        word-break: break-word;
+        overflow-wrap: break-word;
     }
 }
 
