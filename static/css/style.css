@@ -415,48 +415,74 @@ body {
 }
 
 
-
 @media (max-width: 768px) {
-    /* General rule to make everything stack in a column */
-    body, .container {
+    /* Apply styles for devices with a screen width of 768px or less */
+    body {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Center items horizontally */
-    }
-
-    /* Adjust margins and paddings for smaller screens */
-    .container > * {
-        margin: 10px 0;
-        width: 100%; /* Make child elements take full width */
-    }
-
-    /* Example: Adjust images to be responsive */
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    /* Adjust font sizes for better readability */
-    h1, h2, h3, p {
-        font-size: 90%; /* Reduce font size slightly */
-        text-align: center; /* Center-align text for better readability */
-    }
-
-    /* Specific adjustments for navigation menus */
-    nav ul {
-        display: flex;
-        flex-direction: column;
+        align-items: center; /* Centers the content horizontally */
+        margin: 0;
         padding: 0;
     }
-    nav ul li {
-        margin: 5px 0;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box; /* Ensures padding doesn't affect total width */
     }
 
-    /* Buttons and form elements adjustments */
-    button, input, textarea {
+    /* Order elements in the desired sequence */
+    .right-banner {
+        order: 1; /* Place at the top of the column */
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .nav {
+        order: 2; /* Place navigation below the banner */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .text {
+        order: 3; /* Place text below the navigation */
         width: 100%;
     }
+
+    .banner-image {
+        display: none; /* Remove picture/banner for small screens */
+    }
+
+    .nav-item {
+        margin-bottom: 5px; /* Space between navigation items */
+    }
+
+    img {
+        max-width: 100%; /* Ensure images scale to fit the screen width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    button {
+        width: 100%; /* Buttons take full width */
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    /* Optional: Adjust font sizes for better readability on smaller screens */
+    h1, h2, h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
 }
+
 
 
 
