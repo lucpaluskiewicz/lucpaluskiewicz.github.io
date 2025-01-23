@@ -413,7 +413,10 @@ body {
         display: none; /* Optional: If you want to hide the sidebar completely */
     }
 
-
+        .main-content {
+        margin-left: 0; /* Reset margin to 0 for a seamless mobile view */
+        padding: 10px; /* Optional: Add padding to content if needed for better spacing */
+    }
 
     
     /* Apply styles for devices with a screen width of 768px or less */
