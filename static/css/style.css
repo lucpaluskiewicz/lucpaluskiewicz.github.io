@@ -375,10 +375,8 @@ header img {
 
 /* Prevent content from overlapping the banner */
 body {
-    margin-top: 350px; /* Add space equal to the banner height */
-}
-
-body {
+    margin-top: 300px; /* Add space equal to the banner height */
+    overscroll-behavior: none; /* Disable the bounce/elastic effect */
      /*height: min-content; Ensure full height */
     margin: 0;    /* Remove default margin */
     padding: 0;   /* Remove default padding */
