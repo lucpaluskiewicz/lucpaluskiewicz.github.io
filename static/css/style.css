@@ -7,7 +7,7 @@
 
 /* Fixed left column for contact and main information */
 .sidebar {
-    width: 350px; /* Width of the sidebar, adjust as needed */
+    width: 300px; /* Width of the sidebar, adjust as needed */
     background-color: #90afc5; /* Background color for sidebar */
     padding: 20px; /* Inner spacing inside the sidebar */
     position: fixed; /* Fix the sidebar position */
@@ -22,7 +22,7 @@
 /* Right column for scrollable content */
 /* Adjust the main content to account for the banner */
 .main-content {
-    margin-left: 460px; /* Align with the sidebar */
+    margin-left: 300px; /* Align with the sidebar */
     padding: 20px;
     padding-top: 200px; /* Reserve space for the banner (adjust based on banner height) */
     overflow-y: auto; /* Enable scrolling for long content */
