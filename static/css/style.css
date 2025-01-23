@@ -99,18 +99,7 @@ a:hover {
 }
 
 /* Responsive adjustments for smaller screens */
-@media screen and (max-width: 768px) {
-    .sidebar {
-        width: 100%; /* Make sidebar full width for small screens */
-        position: relative; /* Change from fixed to relative for flow layout */
-        height: auto; /* Adjust height to fit content */
-        /* You can also hide the sidebar with display: none; on smaller screens */
-    }
 
-    .main-content {
-        margin-left: 0; /* Reset margin to 0 for a seamless mobile view */
-    }
-}
 
 
 /* Reset styles for the navbar */
