@@ -449,10 +449,16 @@ body {
 
     .navbar {
         order: 2; /* Place navigation below the banner */
-        /*display: flex;*/
-        flex-direction: column; /* Display navigation items in a column */
+        display: flex; /* Ensure it's using flexbox */
+        flex-direction: row; /* Align items horizontally */
+        justify-content: center; /* Center the navbar horizontally */
+        align-items: center; /* Center the navbar vertically if needed */
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .navbar .nav-item {
+        margin: 0 10px; /* Space between navigation items */
     }
 
     .text {
@@ -462,10 +468,6 @@ body {
 
     .banner-image {
         display: none !important; /* Force it to override other styles */
-    }
-
-    .nav-item {
-        margin-bottom: 10px; /* Space between navigation items */
     }
 
     img {
@@ -495,10 +497,10 @@ body {
         max-width: 95%;
         word-break: break-word;
         overflow-wrap: break-word;
-        max-height: 500px;
+        max-height: none; /* Remove the max-height limit to show the full content */
+        overflow-y: auto; /* Allow scrolling if content overflows */
     }
 }
-
 
 
 
