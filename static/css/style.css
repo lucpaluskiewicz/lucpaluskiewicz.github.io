@@ -22,7 +22,7 @@
 /* Right column for scrollable content */
 /* Adjust the main content to account for the banner */
 .main-content {
-    margin-left: 300px; /* Align with the sidebar */
+    margin-left: 350px; /* Align with the sidebar */
     margin-top: 200px;
     padding: 20px;
     padding-top: 100px; /* Reserve space for the banner (adjust based on banner height) */
@@ -352,7 +352,7 @@ header img {
 .top-banner {
     position: fixed; /* Keeps the banner fixed at the top */
     top: 0;
-    left: 400px; /* Align the banner to the right of the sidebar */
+    left: 350px; /* Align the banner to the right of the sidebar */
     width: calc(100% - 300px); /* Make the banner span the right column */
     height: 150px; /* Height of the banner */
     z-index: 1000; /* Ensure it appears above other elements */
