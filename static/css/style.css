@@ -160,7 +160,7 @@ a:hover {
     gap: 60px; /* Adds spacing between navbar items */
     font-family: 'Roboto', Arial, sans-serif; /* Font family for the navbar text */
     height: 70px; /* Increase height for a thicker navbar */
-    line-height: 70px; /* Matches the navbar height for proper vertical centering */
+    /*line-height: 70px;  Matches the navbar height for proper vertical centering */
     font-size: 1.2rem; /* Optional: Increase font size for better readability */
     /* Optional: Adds a subtle shadow */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
