@@ -19,6 +19,10 @@
     /* You can adjust the font size, line height, or add custom padding */
 }
 
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Edge: hides the scrollbar */
+}
+
 /* Right column for scrollable content */
 /* Adjust the main content to account for the banner */
 .main-content {
