@@ -23,8 +23,10 @@
 /* Adjust the main content to account for the banner */
 .main-content {
     margin-left: 300px; /* Align with the sidebar */
+    margin-top: 200px;
     padding: 20px;
-    padding-top: 400px; /* Reserve space for the banner (adjust based on banner height) */
+    padding-top: 50px; /* Reserve space for the banner (adjust based on banner height) */
+    padding-bottom: 100px; /* Reserve space for the banner (adjust based on banner height) */
     overflow-y: auto; /* Enable scrolling for long content */
     flex-grow: 1; /* Allow the content to fill the remaining space */
     background-color: #ffffff; /* Background color for readability */
