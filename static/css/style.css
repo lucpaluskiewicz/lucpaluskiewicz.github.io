@@ -2,7 +2,10 @@
     width: 100%; /* Ensures image takes up 80% of sidebar width */
     max-width: 240px; /* Optional: Prevents excessive scaling */
     height: auto; /* Maintains aspect ratio */
-    
+    border: 5px solid white;
+    margin-left: auto; /* Centers the image */
+    margin-right: auto; /* Centers the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /* Centering */
     display: block; /* Block elements are easier to center */
     margin-left: auto;
