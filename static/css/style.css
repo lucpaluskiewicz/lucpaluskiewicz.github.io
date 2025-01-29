@@ -1,4 +1,14 @@
 
+.profile-image {
+    width: 80%; /* Ensures image takes up 80% of sidebar width */
+    max-width: 240px; /* Optional: Prevents excessive scaling */
+    height: auto; /* Maintains aspect ratio */
+    
+    /* Centering */
+    display: block; /* Block elements are easier to center */
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .sidebar {
     width: 300px; /* Sidebar width */
@@ -10,11 +20,12 @@
     border-right: 1px solid #ddd;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     font-family: 'Roboto', Arial, sans-serif;
-    
-    /* Flexbox for vertical centering */
+
+    /* Center content in the sidebar */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Centers inline elements */
+    justify-content: flex-start; /* Align content at the top */
 }
 
 
@@ -97,18 +108,6 @@ a:hover {
     /* You can add hover effects or adjust spacing here */
     max-width: 100%; /* Prevents images from overflowing */
 }
-
-
-.profile-image {
-    width: 80%; /* Ensures the image takes up 80% of the sidebar width */
-     /*max-width: 240px; /* Prevents excessive scaling */
-    height: auto; /* Maintains aspect ratio */
-    display: block; /* Ensures proper block-level centering */
-    margin: 0 auto; /* Centers the image horizontally */
-}
-
-
-/* Responsive adjustments for smaller screens */
 
 
 
