@@ -1,9 +1,4 @@
-/* Container for the layout */
-.container {
-    display: flex; /* Use flexbox for the layout */
-    height: 100vh; /* Full height of the viewport */
-    /* You can modify the height or add a min-height for larger screens */
-}
+
 
 /* Fixed left column for contact and main information */
 .sidebar {
@@ -24,6 +19,12 @@
 
 body::-webkit-scrollbar {
     display: none; /* Chrome, Safari, and Edge: hides the scrollbar */
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #8B0000;
+    border-radius: 4px;
 }
 
 /* Right column for scrollable content */
@@ -162,7 +163,7 @@ a:hover {
     width: calc(100% - 350px); /* Spans the remaining width of the page (excluding the sidebar) */
     z-index: 1000; /* Keeps it above other content */
     background-color: white; /* Matches the background color */
-    padding: 20 20px; /* Adds horizontal padding for spacing */
+    padding: 20px; /* Adds horizontal padding for spacing */
     text-align: center; /* Centers the navbar items */
     display: flex; /* Ensures items are arranged in a row */
     justify-content: center; /* Centers the items horizontally */
@@ -178,8 +179,10 @@ a:hover {
 }
 
 
-/* Push content down to avoid overlapping with the navbar */
+/* Container for the layout */
 .container {
+    display: flex; /* Use flexbox for the layout */
+    height: 100vh; /* Full height of the viewport */
     margin-top: 30px; /* Adjust this based on navbar height */
 }
 
@@ -201,7 +204,7 @@ a:hover {
         border: 1px solid #ddd;
         font-size: 14px;
         line-height: 1.8; /* Increased interline spacing */
-        text-align: justify; /* Justify text */av
+        text-align: justify; /* Justify text */ 
     }
 
     .abstract.open {
@@ -318,8 +321,8 @@ ul > li {
 .sidebar-logos {
     position: fixed;      /* Fix to the bottom */
     bottom: 30px;         /* Distance from the bottom of the page */
-    left: 10%;            /* Center horizontally */
-    transform: translateX(-50%); /* Offset by half the width of the container */
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;        /* Use flexbox to align logos */
     gap: 40px;            /* Space between the logos */
 }
@@ -401,7 +404,7 @@ body {
     top: 250px;
     left: 460px;
     right: 50px; /* Adds space on the right */
-    width: 800px; /* Adjust to subtract padding */
+    /* width: 800px;  Adjust to subtract padding */
     background-color: white;
     padding: 20px;
     margin-left: 0;
