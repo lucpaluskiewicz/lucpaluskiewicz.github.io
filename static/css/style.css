@@ -100,15 +100,15 @@ a:hover {
     /* You can add bold text or a unique font style for email links */
 }
 
-/* Style for logos in the sidebar */
+/* Style for logos in the sidebar 
 .sidebar img {
-    width: 20px; /* Width of each logo, adjust as needed */
-    height: 20px; /* Height of each logo */
-    vertical-align: middle; /* Align logos with text vertically */
-    margin-right: 10px; /* Space between logo and adjacent text */
-    /* You can add hover effects or adjust spacing here */
-    max-width: 100%; /* Prevents images from overflowing */
-}
+    width: 20px; 
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px; 
+
+    max-width: 100%; 
+}*/
 
 
 
