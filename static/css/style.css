@@ -1,14 +1,15 @@
-
 .profile-image {
-    width: 500px; /* Ensures image takes up 80% of sidebar width */
-    /* max-width: 240px;  Optional: Prevents excessive scaling */
-    height: auto; /* Maintains aspect ratio */
-    
-    /* Centering */
-    display: block; /* Block elements are easier to center */
+    max-width: 100%;
+    height: auto;
+}
+
+/*.profile-image {
+    width: 500px; 
+    height: auto;
+    display: block; 
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 
 .sidebar {
     width: 300px; /* Sidebar width */
