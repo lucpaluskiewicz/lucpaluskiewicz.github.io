@@ -92,13 +92,16 @@ a:hover {
     /* You can add hover effects or adjust spacing here */
 }
 
-/* Space for profile image */
 .profile-image {
-    width: 250px;
-    height: 250px;
-    max-width: 100%;
-    border: 5px solid red;
-
+    margin-top: 20px;
+    width: 200px; /* Adjust width */
+    height: 200px; /* Keep it square */
+   /* border-radius: 50%;  Circular shape */
+    border: 5px solid white;
+    display: block;
+    margin-left: auto; /* Centers the image */
+    margin-right: auto; /* Centers the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
