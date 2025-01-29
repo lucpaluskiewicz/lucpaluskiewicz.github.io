@@ -95,12 +95,14 @@ a:hover {
 /* Space for profile image */
 .profile-image {
     margin-top: 20px; /* Space above the profile image */
-    width: 200px; /* Increase the diameter */
-    height: 200px; /* Keep it the same as width for a perfect circle */
+    width: 400px; /* Increase the diameter */
+    height: 400px; /* Keep it the same as width for a perfect circle */
     border-radius: 50%; /* Circular image */
     display: block; /* Ensures image behaves as a block element */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a slight 3D effect */
 }
+
+
 
 /* Responsive adjustments for smaller screens */
 
