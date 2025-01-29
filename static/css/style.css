@@ -469,6 +469,7 @@ body {
 
     .navbar {
         order: 2; /* Place navigation below the banner */
+        left: 0;
         display: flex; /* Ensure it's using flexbox */
         flex-direction: row; /* Align items horizontally */
         justify-content: center; /* Center the navbar horizontally */
@@ -524,5 +525,8 @@ body {
 
 
 
+    
+
+   
 
 
