@@ -97,16 +97,21 @@ a:hover {
 }
 
 .profile-image {
-    margin-top: 20px;
-    width: 200px; /* Adjust width */
-    height: 200px; /* Keep it square */
+    width: 80%; /* Makes the image 80% of the sidebar width */
+   /* max-width: 200px;  Prevents it from getting too large */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
    /* border-radius: 50%;  Circular shape */
-    border: 5px solid white;
     display: block;
-    margin-left: auto; /* Centers the image */
-    margin-right: auto; /* Centers the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Ensures it remains centered */
+    border: 5px solid white;    
+    /*margin-top: 20px;
+    margin-left: auto; Centers the image 
+    margin-right: auto;  Centers the image */
+
 }
+
 
 
 
