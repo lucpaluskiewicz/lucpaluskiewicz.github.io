@@ -97,6 +97,8 @@ a:hover {
     width: 250px;
     height: 250px;
     max-width: 100%;
+    border: 5px solid red;
+
 }
 
 
