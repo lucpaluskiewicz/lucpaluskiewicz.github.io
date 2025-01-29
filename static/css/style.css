@@ -96,22 +96,13 @@ a:hover {
     /* You can add hover effects or adjust spacing here */
 }
 
+
 .profile-image {
-    width: 80%; /* Makes the image 80% of the sidebar width */
-   /* max-width: 200px;  Prevents it from getting too large */
+    width: 80%; /* Ensures the image takes up 80% of the sidebar width */
     height: auto; /* Maintains aspect ratio */
-    border-radius: 10px; /* Optional: adds rounded corners */
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
-   /* border-radius: 50%;  Circular shape */
-    display: block;
-    margin: 0 auto; /* Ensures it remains centered */
-    border: 5px solid white;    
-    /*margin-top: 20px;
-    margin-left: auto; Centers the image 
-    margin-right: auto;  Centers the image */
-
+    display: block; /* Ensures proper block-level centering */
+    margin: 0 auto; /* Centers the image horizontally */
 }
-
 
 
 
