@@ -393,8 +393,8 @@ body {
 
 .fixed-text {
     position: fixed;
-    top: 250px;
-    left: 460px;
+    top: 300px;
+    left: 400px;
     right: 50px; /* Adds space on the right */
     /* width: 800px;  Adjust to subtract padding */
     background-color: white;
