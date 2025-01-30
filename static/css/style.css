@@ -18,6 +18,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 60px; 
 }
 
 .sidebar {
@@ -325,27 +326,6 @@ ul > li {
             font-style: italic;
             color: #555;
         }
-
-
-
-/* Fix logos at the bottom of the sidebar */
-.sidebar-logos {
-    position: fixed;      /* Fix to the bottom */
-    bottom: 30px;         /* Distance from the bottom of the page */
-    /*left: 50%; */
-    transform: translateX(-50%);
-    display: flex;        /* Use flexbox to align logos */
-    gap: 40px;            /* Space between the logos */
-}
-
-.sidebar-logos a {
-    display: inline-block; /* Make links block level for better control */
-}
-
-.sidebar-logos img {
-    max-width: 400px;  /* Adjust the logo size */
-    height: auto;     /* Maintain aspect ratio */
-}
 
 
     /* Regular link styling */
