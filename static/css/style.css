@@ -332,7 +332,7 @@ ul > li {
 .sidebar-logos {
     position: fixed;      /* Fix to the bottom */
     bottom: 30px;         /* Distance from the bottom of the page */
-    left: 50%;
+    /*left: 50%; */
     transform: translateX(-50%);
     display: flex;        /* Use flexbox to align logos */
     gap: 40px;            /* Space between the logos */
