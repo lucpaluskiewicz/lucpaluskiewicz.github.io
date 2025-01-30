@@ -13,10 +13,12 @@
 }
 
 .logo-container {
-    margin-top: auto; /* Pushes the logo to the bottom */
+    margin-top: auto; /* Pushes logos to the bottom */
     padding-bottom: 20px; /* Adds space from bottom */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 
 .sidebar {
     width: 300px; /* Sidebar width */
