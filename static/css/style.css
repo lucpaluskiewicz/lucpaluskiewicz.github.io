@@ -78,7 +78,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .logo_pse_cdf {
-    height: 60px;  /* Adjust size as needed */
+    height: 40px;  /* Adjust size as needed */
     width: auto;  /* Maintain aspect ratio */
     background-color: transparent;  /* Ensure no background */
     vertical-align: middle;  /* Align with text */
