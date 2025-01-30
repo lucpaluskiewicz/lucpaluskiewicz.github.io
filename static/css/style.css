@@ -16,7 +16,7 @@
     margin-top: auto; /* Pushes logos to the bottom */
     padding-bottom: 20px; /* Adds space from bottom */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     height: 60px; 
 }
@@ -76,11 +76,12 @@ body::-webkit-scrollbar-thumb {
 
 
 .logo_pse_cdf {
-    width: 50px;  /* Adjust size as needed */
-    height: auto;  /* Maintain aspect ratio */
+    height: 60px;  /* Adjust size as needed */
+    width: auto;  /* Maintain aspect ratio */
     background-color: transparent;  /* Ensure no background */
     vertical-align: middle;  /* Align with text */
     margin-right: 5px;  /* Add some spacing from the text */
+    
 }
 
 /* General styles for headers and links */
