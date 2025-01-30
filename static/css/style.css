@@ -70,11 +70,19 @@ body::-webkit-scrollbar-thumb {
 .logomail {
     width: 20px;  /* Adjust size as needed */
     height: auto;  /* Maintain aspect ratio */
-    background: none;  /* Ensure no background */
+    background-color: transparent;  /* Ensure no background */
     vertical-align: middle;  /* Align with text */
     margin-right: 5px;  /* Add some spacing from the text */
 }
 
+
+.logo_pse_cdf {
+    width: 50px;  /* Adjust size as needed */
+    height: auto;  /* Maintain aspect ratio */
+    background-color: transparent;  /* Ensure no background */
+    vertical-align: middle;  /* Align with text */
+    margin-right: 5px;  /* Add some spacing from the text */
+}
 
 /* General styles for headers and links */
 h1, h2, h3 {
@@ -116,16 +124,6 @@ a:hover {
     color: #8B0000; /* Dark brick color for email links */
     /* You can add bold text or a unique font style for email links */
 }
-
-/* Style for logos in the sidebar 
-.sidebar img {
-    width: 20px; 
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 10px; 
-
-    max-width: 100%; 
-}*/
 
 
 
