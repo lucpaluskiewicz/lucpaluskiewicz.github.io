@@ -415,105 +415,64 @@ body {
 
 
 @media (max-width: 768px) {
+    /* Transform Sidebar into a Fixed Header */
     .sidebar {
-        width: 100%; /* Make sidebar full width for small screens */
-        position: relative; /* Change from fixed to relative for flow layout */
-        height: auto; /* Adjust height to fit content */
-        /* You can also hide the sidebar with display: none; on smaller screens */
-        display: none; /* Optional: If you want to hide the sidebar completely */
-    }
-
-        .main-content {
-        margin-left: 0; /* Reset margin to 0 for a seamless mobile view */
-        padding: 10px; /* Optional: Add padding to content if needed for better spacing */
-    }
-
-    
-    /* Apply styles for devices with a screen width of 768px or less */
-    body {
+        width: 100%;
+        height: auto; /* Allow it to expand based on content */
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #333; /* Adjust background color */
         display: flex;
-        flex-direction: column;
-        align-items: center; /* Centers the content horizontally */
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; /* Prevent horizontal scrolling */
-        max-width: 100%;
-        word-break: break-word;
-        overflow-wrap: break-word;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        padding: 15px 0;
+        z-index: 1000; /* Keep it above other elements */
     }
 
+    /* Navbar inside the new header */
+    .navbar {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .navbar .nav-item {
+        margin: 5px 0; /* Add space between navbar items */
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 10px;
+        text-align: center;
+        width: 100%; /* Ensure full width for better tap targets */
+    }
+
+    /* Prevent content from being overlapped by the fixed header */
+    .main-content {
+        margin-top: 120px; /* Adjust to match the height of the new header */
+        padding: 10px;
+    }
+
+    /* Container adapts properly */
     .container {
         display: flex;
         flex-direction: column;
         width: 100%;
         padding: 10px;
-        box-sizing: border-box; /* Ensures padding doesn't affect total width */
+        box-sizing: border-box;
     }
 
-    /* Order elements in the desired sequence */
-    .right-banner {
-        order: 1; /* Place at the top of the column */
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .top-banner img {
+    /* Hide banner images for better mobile experience */
+    .banner-image {
         display: none !important;
     }
 
-    .navbar {
-        order: 2; /* Place navigation below the banner */
-        left: 0;
-        display: flex; /* Ensure it's using flexbox */
-        flex-direction: row; /* Align items horizontally */
-        justify-content: center; /* Center the navbar horizontally */
-        align-items: center; /* Center the navbar vertically if needed */
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .navbar .nav-item {
-        margin: 0 10px; /* Space between navigation items */
-    }
-
-    .text {
-        order: 3; /* Place text below the navigation */
-        width: 100%;
-    }
-
-    .banner-image {
-        display: none !important; /* Force it to override other styles */
-    }
-
     img {
-        max-width: 100%; /* Ensure images scale to fit the screen width */
-        height: auto; /* Maintain aspect ratio */
-    }
-
-    button {
-        width: 100%; /* Buttons take full width */
-        padding: 10px;
-        font-size: 1rem;
-    }
-
-    /* Optional: Adjust font sizes for better readability on smaller screens */
-    h1, h2, h3 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 1rem;
-        line-height: 1.5;
-    }
-
-    .abstract {
-        white-space: pre-wrap; /* Automatically go to a new line for text */
-        word-wrap: break-word; /* Ensure long words break properly */
-        max-width: 95%;
-        word-break: break-word;
-        overflow-wrap: break-word;
-        max-height: none; /* Remove the max-height limit to show the full content */
-        overflow-y: auto; /* Allow scrolling if content overflows */
+        max-width: 100%;
+        height: auto;
     }
 }
 
