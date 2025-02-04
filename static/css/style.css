@@ -446,8 +446,8 @@ body {
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding: 10px;
-        box-sizing: border-box; /* Ensures padding doesn't affect total width */
+        /*padding: 10px;
+        box-sizing: border-box;  Ensures padding doesn't affect total width */
     }
 
 
@@ -457,11 +457,11 @@ body {
 
     .navbar {
         order: 2; /* Place navigation below the banner */
-        left: 0;
+        /*left: 0;*/
         display: flex; /* Ensure it's using flexbox */
         flex-direction: column; /* Align items horizontally */
         justify-content: center; /* Center the navbar horizontally */
-        align-items: center; /* Center the navbar vertically if needed */
+       /* align-items: center;  Center the navbar vertically if needed */
         width: 100%;
         margin-bottom: 20px;
     }
@@ -471,7 +471,7 @@ body {
     }
 
     .main-content {
-        order: 3; /* Place text below the navigation */
+        order: 3; 
         width: 100%;
     }
 
