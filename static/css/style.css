@@ -415,6 +415,7 @@ body {
 
 @media (max-width: 768px) {
     .sidebar {
+        order: 1; /* Place at the top of the column */
         width: 100%; /* Make sidebar full width for small screens */
         position: relative; /* Change from fixed to relative for flow layout */
         height: auto; /* Adjust height to fit content */
@@ -449,12 +450,6 @@ body {
         box-sizing: border-box; /* Ensures padding doesn't affect total width */
     }
 
-    /* Order elements in the desired sequence */
-    .right-banner {
-        order: 1; /* Place at the top of the column */
-        width: 100%;
-        margin-bottom: 10px;
-    }
 
     .top-banner img {
         display: none !important;
@@ -475,7 +470,12 @@ body {
         margin: 0 10px; /* Space between navigation items */
     }
 
-    .text {
+    .main-content {
+        order: 3; /* Place text below the navigation */
+        width: 100%;
+    }
+
+    .fixed-text {
         order: 3; /* Place text below the navigation */
         width: 100%;
     }
