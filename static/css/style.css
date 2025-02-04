@@ -423,12 +423,7 @@ body {
         display: flex; /* Optional: If you want to hide the sidebar completely */
     }
 
-        .main-content {
-        margin-left: 0; /* Reset margin to 0 for a seamless mobile view */
-        padding: 10px; /* Optional: Add padding to content if needed for better spacing */
-    }
-
-    
+   
     /* Apply styles for devices with a screen width of 768px or less */
     body {
         display: flex;
@@ -444,9 +439,10 @@ body {
 
     .container {
         display: flex;
+        /*padding: 10px;
         flex-direction: column;
         width: 100%;
-        /*padding: 10px;
+        padding: 10px;
         box-sizing: border-box;  Ensures padding doesn't affect total width */
     }
 
@@ -455,47 +451,63 @@ body {
         display: none !important;
     }
 
+    /* Navbar Stacks in a Column */
     .navbar {
-        order: 2; /* Place navigation below the banner */
-        /*left: 0;*/
-        display: flex; /* Ensure it's using flexbox */
-        flex-direction: column; /* Align items horizontally */
-        justify-content: center; /* Center the navbar horizontally */
-       /* align-items: center;  Center the navbar vertically if needed */
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         margin-bottom: 20px;
+        background-color: #444; /* Optional: Change navbar background */
+        padding: 10px 0;
     }
 
     .navbar .nav-item {
-        margin: 0 10px; /* Space between navigation items */
-    }
-
-    .main-content {
-        order: 3; 
-        width: 100%;
-    }
-
-    .fixed-text {
-        order: 3; /* Place text below the navigation */
-        width: 100%;
-    }
-
-    .banner-image {
-        display: none !important; /* Force it to override other styles */
-    }
-
-    img {
-        max-width: 100%; /* Ensure images scale to fit the screen width */
-        height: auto; /* Maintain aspect ratio */
-    }
-
-    button {
-        width: 100%; /* Buttons take full width */
-        padding: 10px;
+        margin: 10px 0; /* Space between navigation items */
+        color: white;
+        text-decoration: none;
         font-size: 1rem;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
     }
 
-    /* Optional: Adjust font sizes for better readability on smaller screens */
+    /* Ensure Main Content Flows Below Navbar */
+    .main-content {
+        order: 3;
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    /* Fixed Text Section */
+    .fixed-text {
+        order: 3;
+        width: 100%;
+    }
+
+    /* Hide Large Banner Images on Small Screens */
+    .banner-image {
+        display: none !important;
+    }
+
+    /* Ensure Images Scale Properly */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Make Buttons Touch-Friendly */
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1.2rem;
+        border-radius: 5px;
+    }
+
+    /* Improve Font Sizes for Mobile */
     h1, h2, h3 {
         font-size: 1.5rem;
     }
@@ -503,6 +515,16 @@ body {
     p {
         font-size: 1rem;
         line-height: 1.5;
+    }
+
+    /* Ensure Text Wraps Correctly */
+    .abstract {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        max-width: 95%;
+        overflow-wrap: break-word;
+        max-height: none;
+        overflow-y: auto;
     }
 
     .abstract {
@@ -515,6 +537,9 @@ body {
         overflow-y: auto; /* Allow scrolling if content overflows */
     }
 }
+
+
+
 
 
 
