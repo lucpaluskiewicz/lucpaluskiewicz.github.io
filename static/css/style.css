@@ -474,12 +474,21 @@ body {
         width: 100%;
     }
 
-    /* Ensure Main Content Flows Below Navbar */
-    .main-content {
+   .main-content {
         order: 3;
         width: 100%;
         margin-top: 10px;
         padding: 10px;
+        box-sizing: border-box; /* Prevent padding from increasing width */
+        overflow-wrap: break-word; /* Ensure long words break properly */
+    }
+
+    /* Ensure no element extends beyond the screen width */
+    .container {
+        width: 100%;
+        max-width: 100vw; /* Prevent elements from exceeding viewport width */
+        padding: 10px;
+        box-sizing: border-box;
     }
 
     /* Fixed Text Section */
@@ -494,11 +503,12 @@ body {
     }
 
     /* Ensure Images Scale Properly */
-    img {
+   img {
         max-width: 100%;
         height: auto;
+        display: block; /* Prevent inline spacing issues */
     }
-
+    
     /* Make Buttons Touch-Friendly */
     button {
         width: 100%;
@@ -518,14 +528,6 @@ body {
     }
 
     /* Ensure Text Wraps Correctly */
-    .abstract {
-        white-space: pre-wrap;
-        word-wrap: break-word;
-        max-width: 95%;
-        overflow-wrap: break-word;
-        max-height: none;
-        overflow-y: auto;
-    }
 
     .abstract {
         white-space: pre-wrap; /* Automatically go to a new line for text */
