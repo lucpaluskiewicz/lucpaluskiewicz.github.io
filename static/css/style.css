@@ -529,9 +529,19 @@ body {
         order: 3;
     }
 
-    .main-container{
+    .main-content{
      order: 3; 
-    }
+    overflow-y: auto; /* Enable scrolling for long content */
+    flex-grow: 1; /* Allow the content to fill the remaining space */
+    background-color: #ffffff; /* Background color for readability */
+    position: relative; /* Default relative positioning */
+    /* Ensure content is fixed when space allows */
+    /* max-height: calc(100vh - 120px); Restrict height to the viewport minus the banner */
+    font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
+}
+
+
+    
 }
 
 
