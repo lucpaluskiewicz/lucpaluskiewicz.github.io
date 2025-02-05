@@ -470,6 +470,7 @@ body {
     /* Adjust navigation bar to be full width and properly positioned */
     .navbar {
         width: 100%;
+        margin-left: 10px; 
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -510,6 +511,7 @@ body {
     /* Adjust main content positioning */$
 
     .fixed-text {
+        margin-left: 10px; 
         padding: 20px;
         text-align: justify;
         width: 100%;
@@ -524,6 +526,7 @@ body {
     
 
     .main-content {
+        margin-left: 10px; 
         padding: 20px;
         text-align: justify;
         width: 100%;
