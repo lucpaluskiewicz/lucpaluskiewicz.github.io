@@ -222,11 +222,13 @@ a:hover {
         font-size: 14px;
         line-height: 1.8; /* Increased interline spacing */
         text-align: justify; /* Justify text */ 
+        word-wrap: break-word;
     }
 
     .abstract.open {
         max-height: 800px;  /*Adjust this value for the abstract's height */
         padding: 10px 10px;
+        word-wrap: break-word;
     }
 
     .abstract-toggle.open::after {
@@ -480,6 +482,7 @@ body {
         position: relative;
         background-color: #fff;
         order: 2;
+        
     }
 
     .navbar ul {
