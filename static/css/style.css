@@ -413,134 +413,72 @@ body {
     overflow-wrap: break-word;
 }
 
-@media (max-width: 768px) {
+/* Responsive styles for small screens */
+@media screen and (max-width: 768px) {
+    /* Remove the banner image */
+    .top-banner {
+        display: none;
+    }
+
+    /* Modify sidebar into a header-like section */
     .sidebar {
-        order: 1; /* Place at the top of the column */
-        width: 100%; /* Make sidebar full width for small screens */
-        position: relative; /* Change from fixed to relative for flow layout */
-        height: auto; /* Adjust height to fit content */
-        /* You can also hide the sidebar with display: none; on smaller screens */
-        display: flex; /* Optional: If you want to hide the sidebar completely */
-    }
-
-   
-    /* Apply styles for devices with a screen width of 768px or less 
-    body {
         display: flex;
         flex-direction: column;
-        align-items: center; 
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; 
-        max-width: 100%;
-        word-break: break-word;
-        overflow-wrap: break-word;
-    }*/
-
-   /* .container {
-        display: flex;
-        /*padding: 10px;
-        flex-direction: column;
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;  Ensures padding doesn't affect total width 
-    }*/
-
-
-    .top-banner img {
-        display: none !important;
-    }
-
-     
-    .navbar {
-        order: 2;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
-        width: 100%;
-        margin-bottom: 20px;
-        background-color: #444; /* Optional: Change navbar background */
-        padding: 10px 0;
-    }
-
-    .navbar .nav-item {
-        margin: 10px 0; /* Space between navigation items */
-        color: white;
-        text-decoration: none;
-        font-size: 1rem;
-        padding: 10px;
         text-align: center;
+        background-color: #f8f9fa;
+        padding: 20px;
         width: 100%;
     }
 
-   /*.main-content {
-        order: 3;
-        width: 100%;
-        margin-top: 10px;
-        padding: 10px;
-        box-sizing: border-box; 
-        overflow-wrap: break-word; 
-    }*/
+    .sidebar .profile-image {
+        max-width: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
 
-    /* Ensure no element extends beyond the screen width 
-    .container {
-        width: 100%;
-        max-width: 100vw; 
-        padding: 10px;
-        box-sizing: border-box;
-    }*/
+    .sidebar h1 {
+        font-size: 24px;
+        margin: 5px 0;
+    }
 
-    /* Fixed Text Section 
+    .sidebar .email {
+        display: block;
+        font-size: 14px;
+    }
+
+    /* Remove email logos */
+    .sidebar .logomail {
+        display: none;
+    }
+
+    /* Adjust navigation bar to be vertical */
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .navbar li {
+        list-style: none;
+        margin: 5px 0;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    /* Adjust main content positioning */
     .fixed-text {
-        order: 3;
-        width: 100%;
-    }*/
-
-    /* Hide Large Banner Images on Small Screens */
-    .banner-image {
-        display: none !important;
+        padding: 20px;
+        text-align: justify;
     }
-
-    /* Ensure Images Scale Properly */
-   /*img {
-        max-width: 100%;
-        height: auto;
-        display: block; /* Prevent inline spacing issues */
-    }*/
-    
-    /* Make Buttons Touch-Friendly */
-    button {
-        width: 100%;
-        padding: 12px;
-        font-size: 1.2rem;
-        border-radius: 5px;
-    }
-
-    /* Improve Font Sizes for Mobile 
-    h1, h2, h3 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 1rem;
-        line-height: 1.5;
-    }*/
-
-    /* Ensure Text Wraps Correctly */
-
-    
-    /*.abstract {
-        white-space: pre-wrap; 
-        word-wrap: break-word; 
-        max-width: 95%;
-        word-break: break-word;
-        overflow-wrap: break-word;
-        max-height: none;
-        overflow-y: auto; 
-    }*/
 }
-
 
 
 
