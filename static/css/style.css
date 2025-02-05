@@ -417,6 +417,8 @@ body {
 
 /* Default styles for larger screens (optional, for reference) */
 
+/* Default styles for larger screens (optional, for reference) */
+
 /* Responsive styles for small screens */
 @media screen and (max-width: 768px) {
     /* Remove the banner image */
@@ -457,7 +459,7 @@ body {
         display: none;
     }
 
-    /* Adjust navigation bar to be vertical and full width */
+    /* Adjust navigation bar to be full width and properly positioned */
     .navbar {
         width: 100%;
         text-align: center;
@@ -466,6 +468,9 @@ body {
         align-items: center;
         padding: 0;
         box-sizing: border-box;
+        position: relative;
+        z-index: 10;
+        background-color: #fff;
     }
 
     .navbar ul {
@@ -486,11 +491,12 @@ body {
     .navbar a {
         text-decoration: none;
         font-size: 16px;
-        padding: 6px; /* Adjust spacing */
+        padding: 10px; /* Adjust spacing */
         display: block;
         text-align: center;
         width: 100%;
         box-sizing: border-box;
+        background-color: #f8f9fa;
     }
 
     /* Adjust main content positioning */
@@ -499,8 +505,12 @@ body {
         text-align: justify;
         width: 100%;
         box-sizing: border-box;
+        position: relative;
+        z-index: 5;
+        background-color: #fff;
     }
 }
+
 
 
 
