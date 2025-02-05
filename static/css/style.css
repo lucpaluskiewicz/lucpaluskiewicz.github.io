@@ -419,11 +419,21 @@ body {
 
 /* Default styles for larger screens (optional, for reference) */
 
+/* Default styles for larger screens (optional, for reference) */
+
 /* Responsive styles for small screens */
 @media screen and (max-width: 768px) {
     /* Remove the banner image */
     .top-banner {
         display: none;
+    }
+
+    /* Ensure correct order: header/sidebar -> navigation bar -> main content */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
     /* Modify sidebar into a header-like section */
@@ -436,6 +446,7 @@ body {
         padding: 20px;
         width: 100%;
         box-sizing: border-box;
+        order: 1;
     }
 
     .sidebar .profile-image {
@@ -471,6 +482,7 @@ body {
         position: relative;
         z-index: 10;
         background-color: #fff;
+        order: 2;
     }
 
     .navbar ul {
@@ -508,6 +520,9 @@ body {
         position: relative;
         z-index: 5;
         background-color: #fff;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+        margin-top: 10px; /* Ensure it is below the navigation bar */
+        order: 3;
     }
 }
 
