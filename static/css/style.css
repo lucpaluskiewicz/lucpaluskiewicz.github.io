@@ -507,7 +507,8 @@ body {
         background-color: #f8f9fa;
     }
 
-    /* Adjust main content positioning */
+    /* Adjust main content positioning */$
+
     .fixed-text {
         padding: 20px;
         text-align: justify;
@@ -517,7 +518,10 @@ body {
         background-color: #fff;
         overflow-x: hidden; /* Prevent horizontal scrolling */
         order: 3;
+        word-wrap: break-word;
     }
+
+    
 
     .main-content {
         padding: 20px;
@@ -528,6 +532,7 @@ body {
         background-color: #fff;
         overflow-x: hidden; /* Prevent horizontal scrolling */
         order: 3;
+        word-wrap: break-word;
     }
 
 
