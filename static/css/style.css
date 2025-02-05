@@ -514,6 +514,7 @@ body {
     /* Adjust main content positioning */$
 
     .fixed-text {
+        left: 10px;
         margin-left: 10px; 
         padding: 20px;
         text-align: justify;
