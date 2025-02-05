@@ -451,7 +451,7 @@ body {
         display: none !important;
     }
 
-    /* Navbar Stacks in a Column 
+     
     .navbar {
         order: 2;
         display: flex;
@@ -462,7 +462,7 @@ body {
         margin-bottom: 20px;
         background-color: #444; /* Optional: Change navbar background */
         padding: 10px 0;
-    }*/
+    }
 
     .navbar .nav-item {
         margin: 10px 0; /* Space between navigation items */
