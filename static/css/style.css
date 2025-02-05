@@ -503,7 +503,6 @@ body {
         width: 100%;
     }
 
-
     .navbar a {
         text-decoration: none;
         font-size: 16px;
@@ -518,8 +517,8 @@ body {
     /* Adjust main content positioning */$
 
     .fixed-text {
-        left: 10px !important; /* Ensure proper alignment */
-        margin-left: 10px !important; /* Ensure proper alignment */
+        left: 0px !important; /* Ensure proper alignment */
+        margin-left: 0px !important; /* Ensure proper alignment */
         padding: 20px;
         text-align: justify;
         width: 100%;
@@ -530,11 +529,9 @@ body {
         order: 3;
         word-wrap: break-word;
     }
-
-    
 
     .main-content {
-        margin-left: 10px; 
+        margin-left: 0px; 
         padding: 20px;
         text-align: justify;
         width: 100%;
@@ -552,7 +549,7 @@ body {
 
 
     
-}
+
 
 
 
