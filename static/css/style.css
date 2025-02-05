@@ -68,6 +68,8 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
 }
 
+
+
 .logomail {
     width: 20px;  /* Adjust size as needed */
     height: auto;  /* Maintain aspect ratio */
@@ -519,10 +521,16 @@ body {
         box-sizing: border-box;
         position: relative;
         z-index: 5;
+         word-break: break-word;
+        overflow-wrap: break-word;
         background-color: #fff;
         overflow-x: hidden; /* Prevent horizontal scrolling */
         margin-top: 10px; /* Ensure it is below the navigation bar */
         order: 3;
+    }
+
+    .main-container{
+     order: 3; 
     }
 }
 
