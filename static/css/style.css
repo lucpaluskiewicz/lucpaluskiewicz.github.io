@@ -415,6 +415,8 @@ body {
 
 /* Default styles for larger screens (optional, for reference) */
 
+/* Default styles for larger screens (optional, for reference) */
+
 /* Responsive styles for small screens */
 @media screen and (max-width: 768px) {
     /* Remove the banner image */
@@ -431,6 +433,7 @@ body {
         background-color: #f8f9fa;
         padding: 20px;
         width: 100%;
+        box-sizing: border-box;
     }
 
     .sidebar .profile-image {
@@ -458,6 +461,11 @@ body {
     .navbar {
         width: 100%;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        box-sizing: border-box;
     }
 
     .navbar ul {
@@ -466,29 +474,34 @@ body {
         align-items: center;
         padding: 0;
         width: 100%;
+        margin: 0;
     }
 
     .navbar li {
         list-style: none;
-        margin: 3px 0; /* Reduce vertical spacing */
+        margin: 2px 0; /* Reduce vertical spacing further */
         width: 100%;
     }
 
     .navbar a {
         text-decoration: none;
         font-size: 16px;
-        padding: 8px; /* Adjust spacing */
+        padding: 6px; /* Adjust spacing */
         display: block;
         text-align: center;
         width: 100%;
+        box-sizing: border-box;
     }
 
     /* Adjust main content positioning */
     .fixed-text {
         padding: 20px;
         text-align: justify;
+        width: 100%;
+        box-sizing: border-box;
     }
 }
+
 
 
 
