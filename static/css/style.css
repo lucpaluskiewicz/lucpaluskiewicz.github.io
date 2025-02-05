@@ -499,14 +499,14 @@ body {
     .navbar li {
         list-style: none;
         margin: 0; /* Remove default margin */
-        padding: 5px 0; /* Reduce vertical spacing */
+        padding: 3px 0; /* Reduce vertical spacing even more */
         width: 100%;
     }
 
     .navbar a {
         text-decoration: none;
         font-size: 16px;
-        padding: 8px; /* Reduce padding for a more compact look */
+        padding: 5px; /* Adjust padding for a tighter layout */
         display: block;
         text-align: center;
         width: 100%;
@@ -514,6 +514,11 @@ body {
         background-color: #f8f9fa;
     }
     
+    .abstract.open {
+      /*  max-height: 800px;  Adjust this value for the abstract's height */
+        padding: 10px 10px;
+        word-wrap: break-word;
+    }    
     /* Adjust main content positioning */$
 
     .fixed-text {
@@ -523,7 +528,7 @@ body {
         text-align: justify;
         width: 100%;
         box-sizing: border-box;
-        position: relative;
+        position: relative !important;
         background-color: #fff;
         overflow-x: hidden; /* Prevent horizontal scrolling */
         order: 3;
