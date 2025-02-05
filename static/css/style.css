@@ -415,13 +415,6 @@ body {
     overflow-wrap: break-word;
 }
 
-/* Default styles for larger screens (optional, for reference) */
-
-/* Default styles for larger screens (optional, for reference) */
-
-/* Default styles for larger screens (optional, for reference) */
-
-/* Default styles for larger screens (optional, for reference) */
 
 /* Responsive styles for small screens */
 @media screen and (max-width: 768px) {
@@ -436,6 +429,7 @@ body {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        height: auto;
     }
 
     /* Modify sidebar into a header-like section */
@@ -449,6 +443,7 @@ body {
         width: 100%;
         box-sizing: border-box;
         order: 1;
+        position: relative;
     }
 
     .sidebar .profile-image {
@@ -482,7 +477,6 @@ body {
         padding: 0;
         box-sizing: border-box;
         position: relative;
-        z-index: 10;
         background-color: #fff;
         order: 2;
     }
@@ -498,14 +492,14 @@ body {
 
     .navbar li {
         list-style: none;
-        margin: 2px 0; /* Reduce vertical spacing further */
+        margin: 2px 0;
         width: 100%;
     }
 
     .navbar a {
         text-decoration: none;
         font-size: 16px;
-        padding: 10px; /* Adjust spacing */
+        padding: 10px;
         display: block;
         text-align: center;
         width: 100%;
@@ -520,24 +514,24 @@ body {
         width: 100%;
         box-sizing: border-box;
         position: relative;
-        z-index: 5;
-         word-break: break-word;
-        overflow-wrap: break-word;
         background-color: #fff;
         overflow-x: hidden; /* Prevent horizontal scrolling */
-        margin-top: 10px; /* Ensure it is below the navigation bar */
         order: 3;
     }
 
-    .main-content{
-     order: 3; 
-    overflow-y: auto; /* Enable scrolling for long content */
-    flex-grow: 1; /* Allow the content to fill the remaining space */
-    background-color: #ffffff; /* Background color for readability */
-    position: relative; /* Default relative positioning */
-    /* Ensure content is fixed when space allows */
-    /* max-height: calc(100vh - 120px); Restrict height to the viewport minus the banner */
-    font-family: 'Roboto', Arial, sans-serif; /* Font family for sidebar text */
+    .main-content {
+        padding: 20px;
+        text-align: justify;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        background-color: #fff;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+        order: 3;
+    }
+
+
+    
 }
 
 
