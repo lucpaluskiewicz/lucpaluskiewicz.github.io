@@ -1,6 +1,6 @@
 .profile-image {
     width: 65%; /* Ensures image takes up 80% of sidebar width */
-    max-width: 200px; /* Optional: Prevents excessive scaling */
+    max-width: 150px; /* Optional: Prevents excessive scaling */
     height: auto; /* Maintains aspect ratio */
     border: 5px solid white;
     margin-left: auto; /* Centers the image */
