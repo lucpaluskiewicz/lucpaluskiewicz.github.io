@@ -6,61 +6,7 @@
     <title>Research</title>
     <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="static/css/style.css">
-    <style>
-        /* Styles for toggle button and abstract */
-        .abstract-toggle {
-            cursor: pointer;
-            color: #8B0000; /* Dark brick color */
-            font-weight: bold;
-            margin-left: 5px;
-        }
 
-.abstract {
-    /*position: fixed;  Positions the element relative to the viewport */
-    max-height: 0; /* Initially sets the height to 0, hiding the content */
-    overflow: hidden; /* Ensures that content outside the defined height (0) is hidden */
-    transition: max-height 0.3s ease, padding 0.3s ease; /* Smoothly animates the change in max-height and padding over 0.3 seconds */
-    margin-top: 10px; /* Adds 10px space above the element to separate it from other content */
-    padding: 0 10px; /* Adds horizontal padding of 10px but no vertical padding initially */
-    border: 1px solid transparent; /* Keeps the border transparent, preventing layout shifts without a visible border */
-    font-size: 14px; /* Sets the font size to 14px for the text inside */
-    line-height: 1.5; /* Sets the line height to 1.5, improving readability of the text */
-    right: 150px; /* Ensures the abstract stops 150px before the right edge of the page */
-    /*top: 250px; /* This will set the abstract 250px from the top of the viewport */
-    width: 800px;
-    background-color: white; /* Matches the background color */
-
-}
-
-        .abstract.open {
-           /* max-height: 200px;  Adjust this value for the abstract's height */
-            padding: 10px 10px;
-        }
-
-        .abstract-toggle.open::after {
-            content: "▼"; /* Down arrow */
-        }
-
-        .abstract-toggle.closed::after {
-            content: "►"; /* Right arrow */
-        }
-
-        /* Spacing between items */
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        ul > li {
-            margin-bottom: 30px; /* Add space between list items */
-        }
-
-        /* Optional: style for the status */
-        .status {
-            font-style: italic;
-            color: #555;
-        }
-    </style>
 </head>
 
 <body>
