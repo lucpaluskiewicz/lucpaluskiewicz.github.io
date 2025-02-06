@@ -185,7 +185,6 @@ a:hover {
     display: flex; /* Ensures items are arranged in a row */
     justify-content: center; /* Centers the items horizontally */
     align-items: center; /* Vertically aligns items */
-    gap: 80px; /* Adds spacing between navbar items */
     font-family: 'Roboto', Arial, sans-serif; /* Font family for the navbar text */
     /*height: 70px;  Increase height for a thicker navbar */
     /*line-height: 70px;  Matches the navbar height for proper vertical centering */
@@ -494,7 +493,10 @@ body {
         padding: 0;
         width: 100%;
         margin: 0;
+        gap: 20px;
     }
+
+
 
     .navbar li {
         list-style: none;
@@ -519,12 +521,14 @@ body {
         padding: 10px 10px;
         word-wrap: break-word;
     }    
-    /* Adjust main content positioning */$
 
-    
      .fixed-text {
         padding: 20px;
         text-align: justify;
+        left: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        right: 5px; /* Adds space on the right */
         width: calc(100% - 20px); /* Ensure no overflow */
         box-sizing: border-box;
         position: relative;
@@ -534,16 +538,11 @@ body {
         word-wrap: break-word;
         margin: 0 auto; /* Ensure text aligns properly */
     }
- 
 
-
-
-
-
-    
 
     .main-content {
-        margin-left: 0px; 
+        margin-left: 5px;
+        margin-right: 5px; 
         padding: 20px;
         text-align: justify;
         width: 100%;
