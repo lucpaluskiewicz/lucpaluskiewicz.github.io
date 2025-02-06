@@ -521,19 +521,26 @@ body {
     }    
     /* Adjust main content positioning */$
 
-    .fixed-text {
-        left: 0px !important; /* Ensure proper alignment */
-        margin-left: 0px !important; /* Ensure proper alignment */
+    
+     .fixed-text {
         padding: 20px;
         text-align: justify;
-        width: 100%;
+        width: calc(100% - 20px); /* Ensure no overflow */
         box-sizing: border-box;
-        position: relative !important;
+        position: relative;
         background-color: #fff;
-        overflow-x: hidden; /* Prevent horizontal scrolling */
+        overflow-x: hidden;
         order: 3;
         word-wrap: break-word;
+        margin: 0 auto; /* Ensure text aligns properly */
     }
+ 
+
+
+
+
+
+    
 
     .main-content {
         margin-left: 0px; 
@@ -546,6 +553,16 @@ body {
         overflow-x: hidden; /* Prevent horizontal scrolling */
         order: 3;
         word-wrap: break-word;
+    }
+
+
+    logo_pse_cdf {
+    height: 40px;  /* Adjust size as needed */
+    width: auto;  /* Maintain aspect ratio */
+    background-color: transparent;  /* Ensure no background */
+    vertical-align: middle;  /* Align with text */
+    margin-right: 5px;  /* Add some spacing from the text */
+    margin-top: 20px;  /* Add some spacing from the text */
     }
 
 
