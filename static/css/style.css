@@ -449,7 +449,7 @@ body {
 
     .sidebar .profile-image {
         max-width: 100px;
-        border-radius: 50%;
+        border-radius: 20%;
         margin-bottom: 10px;
     }
 
