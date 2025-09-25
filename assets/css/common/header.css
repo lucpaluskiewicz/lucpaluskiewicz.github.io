@@ -9,9 +9,8 @@
 }
 
 
-
 /* Basic link styling */
-custom-link {
+.custom-link {
     color: #000000; /* Change this to your preferred color */
     text-decoration: none; /* Removes default underline */
     border-bottom: 2px solid #A90204; /* Adds a solid underline in the link color */
@@ -19,9 +18,10 @@ custom-link {
 }
 
 /* Darker effect when hovering */
-custom-link:hover {
+.custom-link:hover {
     color: #A90204; /* Darker shade of the original color */
 }
+
 
 /* Justified paragraph styling */
 p.justified {
