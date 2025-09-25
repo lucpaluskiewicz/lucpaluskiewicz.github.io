@@ -19,8 +19,18 @@ title: "Research"
 
 <span style="color:#b7b6b7; font-size: small;">[Draft available upon request]</span>
 
- <p style="font-size: small;">
+<p style="font-size: small;">
 <ins style="color:#211e29;"> Abstract:</ins> Can party behaviour explain why gender equality policies fail to increase women’s political representation? Using data from seven municipal elections, we show that Brazilian political parties undermine gender quotas and funding requirements by strategically placing female candidates in races where they expect weak performance while reserving “sure” races for men. Despite national-level compliance requirements, weak enforcement at the municipal level enables this strategic distribution across localities based on electoral competitiveness. In municipalities that are historically electoral strongholds, the share of female candidates increased more after quota implementation than in competitive municipalities, driven by a larger increase among non-dominant parties. Conversely, dominant parties reduced all-male candidate lists 23.5% less than their counterparts in competitive races. We document a sharp increase in token female candidacies after the adoption of gender quotas, reduced by the introduction of campaign funding requirements. Our results point to the importance of factoring electoral competition and party responses when designing gender equality policies.
 </p>
+
+<strong style="color:#211e29;"> Scientific Isolation? The Consequences of Trump's China Initiative on Chinese Research </strong>, with [Philippe Aghion](), [Céline Antonin](https://www.ofce.fr/pages-chercheurs/page.php?id=3), [David Strömberg](https://davidstro.github.io/), [Xueping Sun](https://xuepingsun.github.io/) and [Raphaël Wargon]().
+
+<p style="font-size: small;">
+<ins style="color:#211e29;"> Abstract:</ins> The 2018 China Initiative by the Trump administration complicated procedures and reduced funding for US-China research collaborations. Using Scopus data, we analyze its impact on Chinese research. We find that the China Initiative significantly lowered the average quality of both the publications and the co-authors of Chinese researchers with prior US collaborations compared to Chinese researchers with prior European collaborations. Thus, we estimate that the China Initiative reduced yearly citations for affected Chinese researchers by 6 percent. The effect was stronger for high-productivity Chinese researchers in US-dominated fields, especially when their US co-authors played a leading role. 
+</p>
+
+
+
+
 
 
