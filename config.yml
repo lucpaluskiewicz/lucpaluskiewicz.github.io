@@ -50,7 +50,8 @@ params:
     profileMode:
           enabled: true
           title: Luc Paluskiewicz
-          subtitle: "Welcome to my website! I am a PhD candidate in Economics at [Paris School of Economics](https://www.parisschoolofeconomics.eu/), [Collège de France](https://www.college-de-france.fr/fr) and at the [EHESS](https://www.ehess.fr/fr). 
+          subtitle: "Welcome to my website! I am a PhD candidate in Economics at. 
+          #[Paris School of Economics](https://www.parisschoolofeconomics.eu/), [Collège de France](https://www.college-de-france.fr/fr) and at the [EHESS](https://www.ehess.fr/fr). 
           #My research interests are in Innovation Economics and Political Economy. I am supervised by [Philippe Aghion](https://www.philippeaghion.com/).  I hold a Master's degree in Analysis and Policy in Economics from the Paris School of Economics (PSE).
           #imageUrl: "photo1.png"
           imageTitle: Luc Paluskiewicz
