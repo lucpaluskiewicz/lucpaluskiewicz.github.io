@@ -35,7 +35,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["aboutme", "workingpapers", "workinprogress", "teaching"]
+    MainSections: ["workingpapers", "workinprogress", "teaching"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
