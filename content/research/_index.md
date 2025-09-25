@@ -2,25 +2,6 @@
 title: "Research"
 ---
 
-/* Hide the TOC content initially */
-.toc .inner {
-  display: none;
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-/* Show the TOC content when the details tag is open */
-.toc details[open] .inner {
-  display: block;
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Optional: You can add a slight delay for smooth opening */
-.toc details[open] .inner {
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
 
 # Research
 
