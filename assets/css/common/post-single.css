@@ -264,7 +264,6 @@
     font-size: 14px;
     font-weight: normal;
 }
-
 .toc {
     margin: 0 2px 20px 2px;
     border: 1px solid var(--border);
@@ -301,17 +300,18 @@
 .toc .inner {
     margin: 5px 20px 0;
     padding: 0 10px;
-    opacity: 0.9;
+    opacity: 0;
+    visibility: hidden;  /* Initially hidden */
     font-size: 16px;
-    display: none; /* Start with the TOC content hidden */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Transition for smooth effect */
+    transition: opacity 0.3s ease, visibility 0s 0.3s;  /* Transition for opacity and visibility */
 }
 
 /* When the details element is open, display the TOC content */
 .toc details[open] .inner {
-    display: block;
     opacity: 1;
-    transform: translateY(0); /* Optional: adds a subtle slide effect */
+    visibility: visible;  /* Make content visible */
+    transform: translateY(0);  /* Optional: adds a subtle slide effect */
+    transition: opacity 0.3s ease, visibility 0s 0s;  /* Transition for opacity and visibility */
 }
 
 .toc li ul {
@@ -321,6 +321,7 @@
 .toc summary:focus {
     outline: 0;
 }
+
 
 .post-footer {
     margin-top: 60px;
