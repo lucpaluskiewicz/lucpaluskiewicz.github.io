@@ -8,17 +8,16 @@
     background: var(--code-bg);
 }
 
-
 /* Basic link styling */
 a {
-    color: #0066cc; /* Change this to your preferred color */
+    color: #DB8586; /* Change this to your preferred color */
     text-decoration: none; /* Removes underline */
     transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
 /* Darker effect when hovering */
 a:hover {
-    color: #004080; /* Darker shade of the original color */
+    color: #A90204; /* Darker shade of the original color */
 }
 
 /* Justified paragraph styling */
