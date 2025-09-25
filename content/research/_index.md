@@ -26,8 +26,23 @@ title: "Research"
 <strong style="color:#211e29;"> Scientific Isolation? The Consequences of Trump's China Initiative on Chinese Research </strong>, with [Philippe Aghion](), [Céline Antonin](https://www.ofce.fr/pages-chercheurs/page.php?id=3), [David Strömberg](https://davidstro.github.io/), [Xueping Sun](https://xuepingsun.github.io/) and [Raphaël Wargon]().
 
 <p style="font-size: small;">
-<ins style="color:#211e29;"> Abstract:</ins> The 2018 China Initiative by the Trump administration complicated procedures and reduced funding for US-China research collaborations. Using Scopus data, we analyze its impact on Chinese research. We find that the China Initiative significantly lowered the average quality of both the publications and the co-authors of Chinese researchers with prior US collaborations compared to Chinese researchers with prior European collaborations. Thus, we estimate that the China Initiative reduced yearly citations for affected Chinese researchers by 6 percent. The effect was stronger for high-productivity Chinese researchers in US-dominated fields, especially when their US co-authors played a leading role. 
-</p>
+
+<div class="toc">
+  <details>
+    <summary accesskey="a">
+      <span class="details">Abstract</span>
+    </summary>
+    <div class="inner">
+      <p style="font-size: small;">
+        <ins style="color:#211e29;"> Abstract:</ins> The 2018 China Initiative by the Trump administration complicated procedures and reduced funding for US-China research collaborations. Using Scopus data, we analyze its impact on Chinese research. We find that the China Initiative significantly lowered the average quality of both the publications and the co-authors of Chinese researchers with prior US collaborations compared to Chinese researchers with prior European collaborations. Thus, we estimate that the China Initiative reduced yearly citations for affected Chinese researchers by 6 percent. The effect was stronger for high-productivity Chinese researchers in US-dominated fields, especially when their US co-authors played a leading role.
+      </p>
+    </div>
+  </details>
+</div>
+
+
+
+ 
 
 
 
