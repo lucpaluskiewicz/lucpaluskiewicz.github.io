@@ -1,4 +1,4 @@
-baseURL: "lucpaluskiewicz.github.io" 
+baseURL: "lucpaluskiewicz.github.io"
 title: Luc Paluskiewicz
 theme: PaperMod
 
@@ -26,7 +26,6 @@ menu:
 params:
     description: "Economics PhD Candidate at Paris School of Economics, Collège de France and EHESS"
     author: Luc Paluskiewicz
-    # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -48,14 +47,18 @@ params:
     comments: false
     math: true
     profileMode:
-          enabled: true
-          title: Luc Paluskiewicz
-          subtitle: "Welcome to my website!" #I am a PhD candidate in Economics at [Paris School of Economics](https://www.parisschoolofeconomics.eu/), [Collège de France](https://www.college-de-france.fr/fr) and at the [EHESS](https://www.ehess.fr/fr). My research interests are in Innovation Economics and Political Economy. I am supervised by [Philippe Aghion](https://www.philippeaghion.com/).  I hold a Master's degree in Analysis and Policy in Economics from the Paris School of Economics (PSE)."
-          imageUrl: "photo1.png"
-          imageTitle: Luc Paluskiewicz
-          imageWidth: 160
-          imageHeight: 160
-          buttons:
+        enabled: true
+        title: Luc Paluskiewicz
+        subtitle: "Welcome to my website! I am a PhD candidate in Economics with a focus on Innovation Economics and Political Economy."
+        # You can add detailed description here
+        welcomeText: |
+          Welcome to my personal website! I'm Luc Paluskiewicz, a PhD candidate at the Paris School of Economics, Collège de France, and EHESS. 
+          My research revolves around the intersection of Innovation Economics and Political Economy. Feel free to explore my work and research.
+        imageUrl: "photo1.png"
+        imageTitle: Luc Paluskiewicz
+        imageWidth: 160
+        imageHeight: 160
+        buttons:
             - name: About Me
               url: aboutme/
             - name: Research
@@ -70,8 +73,6 @@ params:
           url: CV_2025.pdf
         - name: Email
           url: mailto:luc.paluskiewicz@psemail.eu
-        #- name: Bluesky
-        #  url: 
 
     assets:
         disableScrollBarStyle: true
@@ -79,9 +80,9 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Luc Paluskiewicz"
-      icon: favicon.ico
-      iconHeight: 18
+        text: "Luc Paluskiewicz"
+        icon: favicon.ico
+        iconHeight: 18
 
 markup:
     goldmark:
