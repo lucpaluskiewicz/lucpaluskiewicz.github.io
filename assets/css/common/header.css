@@ -11,7 +11,7 @@
 
 
 /* Basic link styling */
-a {
+custom-link {
     color: #000000; /* Change this to your preferred color */
     text-decoration: none; /* Removes default underline */
     border-bottom: 2px solid #A90204; /* Adds a solid underline in the link color */
@@ -19,7 +19,7 @@ a {
 }
 
 /* Darker effect when hovering */
-a:hover {
+custom-link:hover {
     color: #A90204; /* Darker shade of the original color */
 }
 
