@@ -6,7 +6,7 @@ title: "Research"
 
 ## Working Papers
 
-<strong style="color:#211e29;"> How to Silence Researchers? Evidence from Illiberal Policies in Hungary Processes</strong>, with [Raphaël Wargon]()
+<strong style="color:#211e29;"> How to Silence Researchers? Evidence from Illiberal Policies in Hungary </strong>, with [Raphaël Wargon]()
 
 <span style="color:#b7b6b7; font-size: small;">[Draft available upon request]</span>
 
