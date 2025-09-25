@@ -21,6 +21,13 @@ a:hover {
     color: #004080; /* Darker shade of the original color */
 }
 
+/* Justified paragraph styling */
+p.justified {
+    text-align: justify; /* Justifies the text */
+    line-height: 1.6; /* Adjust line height for better readability */
+    margin-bottom: 1em; /* Adds space below each paragraph */
+}
+
 
 .nav a {
     display: block;
