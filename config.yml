@@ -47,16 +47,14 @@ params:
         enabled: true
         title: Luc Paluskiewicz
         Subtitle: |
-            <p class="justified"> I am a PhD candidate in Economics at <a href="https://www.parisschoolofeconomics.eu/" target="_blank"> Paris School of Economics (PSE)</a>, <a href="https://www.college-de-france.fr/fr" target="_blank"> Collège de France</a> and <a href=" https://www.ehess.fr/fr." target="_blank"> EHESS</a>. </p>
-            <p class="justified"> My research interests are in Innovation Economics and Political Economy. I am supervised by <a href="https://www.philippeaghion.com/" target="_blank"> Philippe Aghion</a>.  </p>
+            <p class="justified"> I am a PhD candidate in Economics at <a href="https://www.parisschoolofeconomics.eu/" class="custom-link"> Paris School of Economics (PSE)</a>, <a href="https://www.college-de-france.fr/fr" class="custom-link"> Collège de France</a> and <a href=" https://www.ehess.fr/fr." class="custom-link"> EHESS</a>. </p>
+            <p class="justified"> My research interests are in Innovation Economics and Political Economy. I am supervised by <a href="https://www.philippeaghion.com/" class="custom-link"> Philippe Aghion</a>.  </p>
             During the academic 2025-2026 year, I will be co-organizing the <a href="https://www.parisschoolofeconomics.eu/evenements/brown-bag-economics-of-innovation-seminar/" target="_blank"> Brown Bag Economics of Innovation Seminar </a>, which is a joint seminar between Collège de France and INSEAD. Feel free to contact me, <a href="https://www.parisschoolofeconomics.eu/personnes/raphael-wargon/" target="_blank">Raphaël Wargon </a>, or <a href="https://www.parisschoolofeconomics.eu/personnes/milla-tarpola/" target="_blank">Milla Tarpola</a>.     
         imageUrl: "photo1.png"
         imageTitle: Luc Paluskiewicz
         imageWidth: 160
         imageHeight: 160
         buttons:
-            - name: About Me
-              url: aboutme/
             - name: Research
               url: research/
             - name: Resume
