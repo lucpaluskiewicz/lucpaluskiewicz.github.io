@@ -8,6 +8,53 @@
     background: var(--code-bg);
 }
 
+/* Ensure the page is responsive and styled properly */
+body.custom-cv-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.custom-container {
+    width: 100%;
+    max-width: 1200px; /* Controls the maximum width */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.custom-cv-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Specific styling for the PDF container */
+.custom-pdf-container {
+    position: relative;
+    width: 100%;
+    height: 80vh; /* Adjust height as needed */
+    overflow: hidden;
+    border: 2px solid #ddd; /* Optional border */
+    background-color: #fff;
+}
+
+/* Ensures the PDF scales correctly */
+.custom-cv-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media (max-width: 600px) {
+    .custom-pdf-container {
+        height: 60vh; /* Smaller height for mobile */
+    }
+}
+
+
+
+
 
 /* Basic link styling */
 .custom-link {
