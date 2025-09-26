@@ -13,7 +13,7 @@ You can find my [CV here]().
         <!-- PDF Embed Container -->
         <div class="custom-pdf-container">
             <!-- Update the 'src' attribute with your actual PDF location -->
-            <iframe class="custom-cv-iframe" src="path/to/your-cv.pdf" title="My CV"></iframe>
+            <iframe class="custom-cv-iframe" src="static/Luc_PALUSKIEWICZ_CV_En.pdf" title="My CV"></iframe>
         </div>
 </div>
    
