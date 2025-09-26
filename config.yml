@@ -53,7 +53,7 @@ params:
         imageUrl: "photo_portrait_carre.png"
         imageTitle: Luc Paluskiewicz
         imageWidth: 160
-        imageHeight: 180
+        imageHeight: 160
         buttons:
             - name: Research
               url: research/
