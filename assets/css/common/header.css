@@ -36,7 +36,8 @@ body.custom-cv-page {
     height: 80vh; /* Adjust height as needed */
     overflow: hidden;
     border: 2px solid #ddd; /* Optional border */
-    background-color: #fff;
+    background-color: #ffffff; /* Set the background color to white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a soft shadow */
 }
 
 /* Ensures the PDF scales correctly */
