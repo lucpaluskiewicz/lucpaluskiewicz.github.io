@@ -5,7 +5,7 @@ title: "Resume"
 # Resume 
 
 <!-- PDF Embed Container --> 
-You can find my [CV here](lucpaluskiewicz.github.io/static/Luc_PALUSKIEWICZ_CV_En.pdf). 
+You can find my [CV here](https://lucpaluskiewicz.github.io/static/Luc_PALUSKIEWICZ_CV_En.pdf). 
 
 <div class="custom-container">
         <!-- PDF Embed Container -->
