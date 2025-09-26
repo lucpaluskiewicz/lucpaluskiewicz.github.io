@@ -64,7 +64,7 @@ params:
 
     socialIcons:
         - name: cv
-          url: CV_2025.pdf
+          url: resume/
         - name: Email
           url: mailto:luc.paluskiewicz@psemail.eu
 
