@@ -46,6 +46,8 @@ title: "Research"
 
 <strong style="color:#211e29;"> Scientific Isolation? The Consequences of Trump's China Initiative on Chinese Research </strong>, with [Philippe Aghion](), [Céline Antonin](https://www.ofce.fr/pages-chercheurs/page.php?id=3), [David Strömberg](https://davidstro.github.io/), [Xueping Sun](https://xuepingsun.github.io/) and [Raphaël Wargon](https://raphaelwargon.github.io/).
 
+<span style="color:#b7b6b7; font-size: small;">[Last version](https://lucpaluskiewicz.github.io/ScientificIsolation_0925.pdf)</span>
+
 <p style="font-size: small;">
 
 <div class="toc">
