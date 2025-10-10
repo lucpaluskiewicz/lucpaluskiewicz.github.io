@@ -30,7 +30,6 @@ title: "Research"
 
 <span style="color:#b7b6b7; font-size: small;">[Draft available upon request]</span>
 
-
 <div class="toc">
   <details>
     <summary accesskey="a">
@@ -45,7 +44,7 @@ title: "Research"
 </div>
 
 
-<strong style="color:#211e29;"> Scientific Isolation? The Consequences of Trump's China Initiative on Chinese Research </strong>, with [Philippe Aghion](), [Céline Antonin](https://www.ofce.fr/pages-chercheurs/page.php?id=3), [David Strömberg](https://davidstro.github.io/), [Xueping Sun](https://xuepingsun.github.io/) and [Raphaël Wargon]().
+<strong style="color:#211e29;"> Scientific Isolation? The Consequences of Trump's China Initiative on Chinese Research </strong>, with [Philippe Aghion](), [Céline Antonin](https://www.ofce.fr/pages-chercheurs/page.php?id=3), [David Strömberg](https://davidstro.github.io/), [Xueping Sun](https://xuepingsun.github.io/) and [Raphaël Wargon](https://raphaelwargon.github.io/).
 
 <p style="font-size: small;">
 
