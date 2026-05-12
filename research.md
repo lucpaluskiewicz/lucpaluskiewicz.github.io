@@ -3,12 +3,29 @@ layout: default
 title: Research
 ---
 
+<style>
+@media (max-width: 768px) {
+  .jmp-flex {
+    flex-direction: column !important;
+  }
+  .jmp-flex img {
+    width: 100% !important;
+  }
+  .profile-img {
+    float: none !important;
+    display: block;
+    margin: 0 auto 1.5rem auto !important;
+    width: 160px !important;
+  }
+}
+</style>
+
 ## Job Market Paper
 
 <strong style="color:#211e29; font-size: 1.05rem;">How to Silence Researchers? Evidence from Illiberal Policies in Hungary</strong>
 <p style="font-size: 0.9rem; color: #555; margin-top: 0.3rem; margin-bottom: 0.5rem;">with <a href="https://raphaelwargon.github.io/" style="color: #555;">Raphaël Wargon</a> [draft available upon request]</p>
 
-<div style="display:flex; gap:25px; align-items:flex-start; margin-bottom:20px;">
+<div class="jmp-flex" style="display:flex; gap:25px; align-items:flex-start; margin-bottom:20px;">
 <img src="assets/img/jmp.png" style="width:325px; flex-shrink:0;">
 <div>
 <p><u><strong>Abstract</strong></u></p>

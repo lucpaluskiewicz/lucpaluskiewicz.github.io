@@ -3,7 +3,24 @@ layout: home
 title: Home
 ---
 
-<img src="assets/img/profile.png" style="float: right; margin-left: 25px; margin-bottom: 10px; width: 250px;">
+<style>
+@media (max-width: 768px) {
+  .jmp-flex {
+    flex-direction: column !important;
+  }
+  .jmp-flex img {
+    width: 100% !important;
+  }
+  .profile-img {
+    float: none !important;
+    display: block;
+    margin: 0 auto 1.5rem auto !important;
+    width: 160px !important;
+  }
+}
+</style>
+
+<img src="assets/img/profile.png" class="profile-img" style="float: right; margin-left: 25px; margin-bottom: 10px; width: 240px;">
 
 I am a PhD candidate in Economics at [Paris School of Economics (PSE)](https://www.parisschoolofeconomics.eu/), [Collège de France](https://www.college-de-france.fr/fr) and [EHESS](https://www.ehess.fr/fr). I am supervised by [Philippe Aghion](https://www.philippeaghion.com/).
 
@@ -25,7 +42,7 @@ You can find my CV [here](https://lucpaluskiewicz.github.io/Luc_PALUSKIEWICZ_CV_
 <p style="font-size: 0.9rem; color: #555; margin-top: 0.3rem; margin-bottom: 0.5rem;">with <a href="https://raphaelwargon.github.io/" style="color: #555; text-decoration: none;">Raphaël Wargon</a> [draft available upon request]</p>
 
 
-<div style="display:flex; gap:25px; align-items:flex-start; margin-bottom:20px;">
+<div class="jmp-flex" style="display:flex; gap:25px; align-items:flex-start; margin-bottom:20px;">
 <img src="assets/img/jmp.png" style="width:325px; flex-shrink:0;">
 <div>
 <p><u><strong>Abstract</strong></u></p>
