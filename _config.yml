@@ -1,4 +1,4 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "academic" # the name of your site, e.g. ACME Corp.
-description: "a Jekyll theme for academia"
+url: "https://lucpaluskiewicz.github.io"
+baseurl: ""
+title: "Luc Paluskiewicz"
+description: "PhD candidate at PSE, Collège de France and EHESS"
