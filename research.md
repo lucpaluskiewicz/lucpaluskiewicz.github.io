@@ -62,9 +62,7 @@ title: Research
 
 <p style="font-size: small;"><u><strong>Past presentations:</strong></u> Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), <strong>11th Monash-Paris-Warwick-Zurich-CEPR Text-As-Data Workshop</strong>.</p>
 
-<!---
 <p style="font-size: small;"><u><strong>Upcoming presentations:</strong></u> NBER SI 2026 Science of Science Funding.</p>
---->
 
 </div>
 
