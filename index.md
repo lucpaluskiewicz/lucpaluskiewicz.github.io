@@ -32,6 +32,8 @@ Since 2023, I co-organize the [Brown Bag Economics of Innovation Seminar](https:
 
 In 2025, I was a visiting scholar at the Department of Applied Economics of the Universitat Autonoma de Barcelona (hosted by [Riccardo Turati](https://sites.google.com/view/riccardoturati)), and the University of Munich LMU (hosted by [Fabian Waldinger](https://www.fabianwaldinger.com/)). During the Spring term 2026 I visited the University of Warwick (hosted by [Sascha O. Becker](https://www.sobecker.de/)).
 
+**Contact:** [luc.paluskiewicz[at]psemail.eu](mailto:luc.paluskiewicz@psemail.eu)
+
 You can find my CV [here](https://lucpaluskiewicz.github.io/Luc_PALUSKIEWICZ_CV_En.pdf).
 
 ---
@@ -50,6 +52,6 @@ You can find my CV [here](https://lucpaluskiewicz.github.io/Luc_PALUSKIEWICZ_CV_
 </div>
 </div>
 
-<p style="font-size: 0.9rem;"><u>Past presentations:</u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick).</p>
+<p style="font-size: 0.9rem;"><u>Past presentations:</u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation.</p>
 
-<p style="font-size: 0.9rem;"><u>Upcoming presentations:</u> 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, EEA 2026 Annual Meeting.</p>
+<p style="font-size: 0.9rem;"><u>Upcoming presentations:</u> CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, NBER SI 2026 Science of Science Funding, EEA 2026 Annual Meeting.</p>
