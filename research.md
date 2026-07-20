@@ -33,9 +33,9 @@ title: Research
 </div>
 </div>
 
-<p style="font-size: small;"><u><strong>Past presentations:</strong></u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation.</p>
+<p style="font-size: small;"><u><strong>Past presentations:</strong></u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics.</p>
 
-<p style="font-size: small;"><u><strong>Upcoming presentations:</strong></u> CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, NBER SI 2026 Science of Science Funding, EEA 2026 Annual Meeting.</p>
+<p style="font-size: small;"><u><strong>Upcoming presentations:</strong></u> NBER SI 2026 Science of Science Funding, EEA 2026 Annual Meeting.</p>
 
 ---
 
@@ -44,7 +44,7 @@ title: Research
 <div style="margin-bottom: 3rem;">
 <strong style="color:#211e29; font-size: 1.05rem;">Scientific Isolation? The Consequences of Trump's China Initiative on Chinese Research</strong>, forthcoming at <em>International Economic Review</em>
 
-<p style="font-size: 0.9rem; color: #555; margin-top: 0.3rem; margin-bottom: 0.3rem;">with <a href="https://www.philippeaghion.com/" style="color: #555;">Philippe Aghion</a>, Céline Antonin, <a href="https://davidstro.github.io/" style="color: #555;">David Strömberg</a>, <a href="https://xuepingsun.github.io/" style="color: #555;">Xueping Sun</a>, <a href="https://raphaelwargon.github.io/" style="color: #555;">Raphaël Wargon</a> and Karolina Westin <a href="https://lucpaluskiewicz.github.io/ScientificIsolation_0925.pdf" style="color:#c43e54; font-size: 0.9rem; text-decoration: none;">[Last version]</a></p>
+<p style="font-size: 0.9rem; color: #555; margin-top: 0.3rem; margin-bottom: 0.3rem;">with <a href="https://www.philippeaghion.com/" style="color: #555;">Philippe Aghion</a>, Céline Antonin, <a href="https://davidstro.github.io/" style="color: #555;">David Strömberg</a>, <a href="https://xuepingsun.github.io/" style="color: #555;">Xueping Sun</a>, <a href="https://raphaelwargon.github.io/" style="color: #555;">Raphaël Wargon</a> and Karolina Westin <a href="https://lucpaluskiewicz.github.io/publications/ScientificIsolation_0925.pdf" style="color:#c43e54; font-size: 0.9rem; text-decoration: none;">[Last version]</a></p>
 
 <p style="font-size: small; text-align: justify;"><u><strong>Abstract:</strong></u> The 2018 China Initiative by the Trump administration complicated procedures and reduced funding for US-China research collaborations. Using Scopus data, we analyze its impact on Chinese research. We find that the China Initiative significantly lowered the average quality of both the publications and the co-authors of Chinese researchers with prior US collaborations compared to Chinese researchers with prior European collaborations. We estimate that the China Initiative reduced yearly citations for affected Chinese researchers by 6 percent. The effect was stronger for high-productivity Chinese researchers in US-dominated fields, especially when their US co-authors played a leading role.</p>
 </div>
