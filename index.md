@@ -20,7 +20,7 @@ title: Home
 }
 </style>
 
-<img src="assets/img/profile.png" class="profile-img" style="float: right; margin-left: 25px; margin-bottom: 10px; width: 240px;">
+<img src="assets/img/profile2.png" class="profile-img" style="float: right; margin-left: 25px; margin-bottom: 10px; width: 240px;">
 
 I am a PhD candidate in Economics at [Paris School of Economics (PSE)](https://www.parisschoolofeconomics.eu/), [Collège de France](https://www.college-de-france.fr/fr) and [EHESS](https://www.ehess.fr/fr). I am supervised by [Philippe Aghion](https://www.philippeaghion.com/).
 
@@ -52,6 +52,6 @@ You can find my CV [here](https://lucpaluskiewicz.github.io/Luc_PALUSKIEWICZ_CV_
 </div>
 </div>
 
-<p style="font-size: 0.9rem;"><u>Past presentations:</u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation.</p>
+<p style="font-size: 0.9rem;"><u>Past presentations:</u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics.</p>
 
-<p style="font-size: 0.9rem;"><u>Upcoming presentations:</u> CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, NBER SI 2026 Science of Science Funding, EEA 2026 Annual Meeting.</p>
+<p style="font-size: 0.9rem;"><u>Upcoming presentations:</u> NBER SI 2026 Science of Science Funding, EEA 2026 Annual Meeting.</p>
