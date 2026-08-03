@@ -35,9 +35,9 @@ title: Research
 </div>
 </div>
 
-<p style="font-size: small;"><u><strong>Past presentations:</strong></u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics.</p>
+<p style="font-size: small;"><u><strong>Past presentations:</strong></u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, NBER Summer Institute 2026 Science of Science Funding.</p>
 
-<p style="font-size: small;"><u><strong>Upcoming presentations:</strong></u> NBER SI 2026 Science of Science Funding, EEA 2026 Annual Meeting.</p>
+<p style="font-size: small;"><u><strong>Upcoming presentations:</strong></u> EEA 2026 Annual Meeting.</p>
 
 ---
 
