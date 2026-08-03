@@ -23,13 +23,15 @@ title: Research
 ## Job Market Paper
 
 <strong style="color:#211e29; font-size: 1.05rem;">How to Silence Researchers? Evidence from Illiberal Policies in Hungary</strong>
-<p style="font-size: 0.9rem; color: #555; margin-top: 0.3rem; margin-bottom: 0.5rem;">with <a href="https://raphaelwargon.github.io/" style="color: #555;">Raphaël Wargon</a> [draft available upon request]</p>
+<p style="font-size: 0.9rem; color: #555; margin-top: 0.3rem; margin-bottom: 0.5rem;">with <a href="https://raphaelwargon.github.io/" style="color: #555;">Raphaël Wargon</a> 
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7157679" style="color:#c43e54; font-size: 0.9rem; text-decoration: none;">[Working Paper]</a>
+</p>
 
 <div class="jmp-flex" style="display:flex; gap:25px; align-items:flex-start; margin-bottom:20px;">
 <img src="assets/img/jmp.png" style="width:325px; flex-shrink:0;">
 <div>
 <p><u><strong>Abstract</strong></u></p>
-<p style="font-size: small; text-align: justify;">We explore how contemporary attacks against academic freedom and illiberal policies have detrimental effects on innovation, focusing on academic research. Using rich national research repositories and international bibliometric data, we show that academics' research trajectories diverge sharply depending on their perceived political alignment. Academics perceived as political opponents experience large declines both in publication output and collaboration networks, each falling by about one quarter relative to pre-shock levels. Researchers working on politically sensitive topics are also disproportionately affected: they experience a 10% decline in total publications and a 30% decline in publications in top journals. Targeted researchers experience a loss of co-authors and are likely to shift their research agendas in response to these threats. We find that Hungarian researchers increasingly reallocate their publication efforts toward lower-ranked national-language journals and are more likely to leave the country altogether.</p>
+<p style="font-size: small; text-align: justify;"> We explore how contemporary attacks against academic freedom have detrimental effects on innovation, focusing on academic research in Hungary after the election of Viktor Orbán in 2010. Using rich national research repositories and international bibliometric data, we show that academics' trajectories diverge sharply depending on their perceived political alignment towards the government. Academics perceived as politically non-aligned experience a large decrease in their productivity and quality of their work. We explain this loss through the shrinking networks and declining influence of these authors. Targeted academics respond strongly, including by leaving the country and expressing dissent against the government. We show that academics self-censor in their academic work. Finally, individual-level crosscountry comparisons allow us to estimate the broader effects of declining academic freedom: Hungarian researchers increasingly reallocate their publication efforts toward lower-ranked national-language journals and are more likely to leave the country altogether. </p>
 </div>
 </div>
 
