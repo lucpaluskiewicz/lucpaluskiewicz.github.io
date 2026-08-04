@@ -42,7 +42,7 @@ You can find my CV [here](https://lucpaluskiewicz.github.io/Luc_PALUSKIEWICZ_CV_
 
 <strong style="color:#211e29; font-size: 1.05rem;">How to Silence Researchers? Evidence from Illiberal Policies in Hungary</strong>
 <p style="font-size: 0.9rem; color: #555; margin-top: 0.3rem; margin-bottom: 0.5rem;"> with <a href="https://raphaelwargon.github.io/" style="color: #555; text-decoration: none;">Raphaël Wargon</a> 
-[Last version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7157679)
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7157679" style="color:#c43e54; font-size: 0.9rem; text-decoration: none;">[Last version]</a> 
 </p>
 
 
