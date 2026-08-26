@@ -22,7 +22,7 @@ title: Home
 
 <img src="assets/img/profile2.png" class="profile-img" style="float: right; margin-left: 25px; margin-bottom: 10px; width: 240px;">
 
-I am a PhD candidate in Economics at [Paris School of Economics (PSE)](https://www.parisschoolofeconomics.eu/), [Collège de France](https://www.college-de-france.fr/fr) and [EHESS](https://www.ehess.fr/fr). I am supervised by [Philippe Aghion](https://www.philippeaghion.com/) and affiliated with the [Fahri Innovation Lab](https://www.farhi-innovation-lab.fr/).
+I am a PhD candidate in Economics at [Paris School of Economics (PSE)](https://www.parisschoolofeconomics.eu/), [Collège de France](https://www.college-de-france.fr/fr) and [EHESS](https://www.ehess.fr/fr). I am supervised by [Philippe Aghion](https://www.philippeaghion.com/) and affiliated with the [Farhi Innovation Lab](https://www.farhi-innovation-lab.fr/).
 
 **I'll be on the 2026-2027 academic job market.**
 
