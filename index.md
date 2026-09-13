@@ -4,6 +4,31 @@ title: Home
 ---
 
 <style>
+.profile-block {
+  float: left;
+  width: 240px;
+  margin: 0 25px 15px 0;
+}
+.profile-block img {
+  width: 100%;
+  display: block;
+}
+.profile-contact {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin-top: 12px;
+  text-align: center;
+}
+.profile-contact a {
+  text-decoration: none;
+}
+.section-break {
+  clear: both;
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
+}
 @media (max-width: 768px) {
   .jmp-flex {
     flex-direction: column !important;
@@ -11,32 +36,37 @@ title: Home
   .jmp-flex img {
     width: 100% !important;
   }
-  .profile-img {
-    float: none !important;
-    display: block;
-    margin: 0 auto 1.5rem auto !important;
-    width: 160px !important;
+  .profile-block {
+    float: none;
+    width: 200px;
+    margin: 0 auto 1.5rem auto;
+  }
+  .section-break {
+    margin-top: 2.5rem;
   }
 }
 </style>
 
-<img src="assets/img/profile2.png" class="profile-img" style="float: right; margin-left: 25px; margin-bottom: 10px; width: 240px;">
+<div class="profile-block">
+  <img src="assets/img/profile2.png" alt="Luc Paluskiewicz">
+  <div class="profile-contact">
+    <a href="mailto:luc.paluskiewicz@psemail.eu">luc.paluskiewicz[at]psemail.eu</a><br>
+    Paris School of Economics<br>
+    48 boulevard Jourdan, 75014 Paris
+  </div>
+</div>
 
 I am a PhD candidate in Economics at [Paris School of Economics (PSE)](https://www.parisschoolofeconomics.eu/), [Collège de France](https://www.college-de-france.fr/fr) and [EHESS](https://www.ehess.fr/fr). I am supervised by [Philippe Aghion](https://www.philippeaghion.com/) and affiliated with the [Farhi Innovation Lab](https://www.farhi-innovation-lab.fr/).
 
-**I'll be on the 2026-2027 academic job market.**
+**I am on the 2026-2027 academic job market.**
 
-My research interests lie in the **Economics of Science and Innovation** and in **Political Economy**. My main focus is on how political institutions shape innovation, especially **how political pressures affect academics' production of ideas**.
+My research interests lie in the Economics of Science and Innovation and in Political Economy. My main focus is on how political institutions shape innovation, especially how political pressures affect academics' production of ideas. In 2025, I was a visiting scholar at the Department of Applied Economics of the Universitat Autonoma de Barcelona (hosted by [Riccardo Turati](https://sites.google.com/view/riccardoturati)), and the University of Munich LMU (hosted by [Fabian Waldinger](https://www.fabianwaldinger.com/)). During the Spring term 2026 I visited the University of Warwick (hosted by [Sascha O. Becker](https://www.sobecker.de/)).
 
 Since 2023, I co-organize the [Brown Bag Economics of Innovation Seminar](https://www.parisschoolofeconomics.eu/evenements/brown-bag-economics-of-innovation-seminar/), which is a joint seminar between the Collège de France and INSEAD. Feel free to contact me if you would like to present.
 
-In 2025, I was a visiting scholar at the Department of Applied Economics of the Universitat Autonoma de Barcelona (hosted by [Riccardo Turati](https://sites.google.com/view/riccardoturati)), and the University of Munich LMU (hosted by [Fabian Waldinger](https://www.fabianwaldinger.com/)). During the Spring term 2026 I visited the University of Warwick (hosted by [Sascha O. Becker](https://www.sobecker.de/)).
-
-**Contact:** [luc.paluskiewicz[at]psemail.eu](mailto:luc.paluskiewicz@psemail.eu)
-
 You can find my CV [here](https://lucpaluskiewicz.github.io/Luc_PALUSKIEWICZ_CV_En.pdf).
 
----
+<hr class="section-break">
 
 ## Job Market Paper
 
