@@ -7,12 +7,12 @@ title: Home
 .intro-flex {
   display: flex;
   align-items: flex-start;
-  gap: 45px;
+  gap: 35px;
   margin-bottom: 1rem;
 }
 .profile-block {
-  flex: 0 0 280px;
-  width: 280px;
+  flex: 0 0 300px;
+  width: 300px;
 }
 .profile-block img {
   width: 100%;
@@ -119,6 +119,7 @@ My research interests lie in the Economics of Science and Innovation and in Poli
 In 2025, I was a visiting scholar at the Department of Applied Economics of the Universitat Autonoma de Barcelona (hosted by [Riccardo Turati](https://sites.google.com/view/riccardoturati)), and the University of Munich LMU (hosted by [Fabian Waldinger](https://www.fabianwaldinger.com/)). During the Spring term 2026 I visited the University of Warwick (hosted by [Sascha O. Becker](https://www.sobecker.de/)).
 
 Since 2023, I co-organize the [Brown Bag Economics of Innovation Seminar](https://www.parisschoolofeconomics.eu/evenements/brown-bag-economics-of-innovation-seminar/), which is a joint seminar between the Collège de France and INSEAD. Feel free to contact me if you would like to present.
+
 
   </div>
 </div>
