@@ -60,7 +60,7 @@ title: Home
 .jmp-flex {
   display: flex;
   flex-direction: row-reverse;
-  gap: 25px;
+  gap: 35px;
   align-items: flex-start;
   margin-bottom: 20px;
 }
