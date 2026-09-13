@@ -60,7 +60,7 @@ title: Home
 .jmp-flex {
   display: flex;
   flex-direction: row-reverse;
-  gap: 35px;
+  gap: 40px;
   align-items: flex-start;
   margin-bottom: 20px;
 }
@@ -149,7 +149,7 @@ Since 2023, I co-organize the [Brown Bag Economics of Innovation Seminar](https:
 <img src="assets/img/ceu_network.png" alt="Job market paper figure">
 <div>
 <p><u><strong>Abstract</strong></u></p>
-<p style="font-size: small; text-align: justify;"> We explore how contemporary attacks against academic freedom have detrimental effects on innovation, focusing on academic research in Hungary after the election of Viktor Orbán in 2010. Using rich national research repositories and international bibliometric data, we show that academics' trajectories diverge sharply depending on their perceived political alignment towards the government. Academics perceived as politically non-aligned experience a large decrease in their productivity and quality of their work. We explain this loss through the shrinking networks and declining influence of these authors. Targeted academics respond strongly, including by leaving the country and expressing dissent against the government. We show that academics self-censor in their academic work. Finally, individual-level crosscountry comparisons allow us to estimate the broader effects of declining academic freedom: Hungarian researchers increasingly reallocate their publication efforts toward lower-ranked national-language journals and are more likely to leave the country altogether. </p>
+<p style="font-size: 0.95rem; text-align: justify;"> We explore how contemporary attacks against academic freedom have detrimental effects on innovation, focusing on academic research in Hungary after the election of Viktor Orbán in 2010. Using rich national research repositories and international bibliometric data, we show that academics' trajectories diverge sharply depending on their perceived political alignment towards the government. Academics perceived as politically non-aligned experience a large decrease in their productivity and quality of their work. We explain this loss through the shrinking networks and declining influence of these authors. Targeted academics respond strongly, including by leaving the country and expressing dissent against the government. We show that academics self-censor in their academic work. Finally, individual-level crosscountry comparisons allow us to estimate the broader effects of declining academic freedom: Hungarian researchers increasingly reallocate their publication efforts toward lower-ranked national-language journals and are more likely to leave the country altogether. </p>
 </div>
 </div>
 
