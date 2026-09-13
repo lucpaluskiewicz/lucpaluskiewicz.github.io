@@ -30,6 +30,7 @@ title: Home
   text-align: center;
 }
 .profile-contact a {
+    font-size: 0.95rem;
   text-decoration: none;
 }
 .profile-links {
