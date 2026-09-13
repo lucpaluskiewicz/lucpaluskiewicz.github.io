@@ -123,7 +123,7 @@ title: Home
 
 I am a PhD candidate in Economics at [Paris School of Economics (PSE)](https://www.parisschoolofeconomics.eu/) and [Collège de France](https://www.college-de-france.fr/fr). I am supervised by [Philippe Aghion](https://www.philippeaghion.com/) and affiliated with the [Farhi Innovation Lab](https://www.farhi-innovation-lab.fr/).
 
-**I'll be on the 2026-2027 academic job market.**
+**I am on the 2026-2027 economics academic job market.**
 
 My research interests lie in the Economics of Science and Innovation and in Political Economy. My main focus is on how political institutions shape innovation, especially how political pressures affect academics' production of ideas.
 
