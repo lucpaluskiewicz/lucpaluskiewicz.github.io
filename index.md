@@ -94,7 +94,7 @@ title: Home
 <div class="intro-flex">
 
   <div class="profile-block">
-    <img src="assets/img/photoLP_s.png" alt="Luc Paluskiewicz">
+    <img src="assets/img/photoLP_s.jpg" alt="Luc Paluskiewicz">
     <div class="profile-contact">
       <a href="mailto:luc.paluskiewicz@psemail.eu">luc.paluskiewicz[at]psemail.eu</a><br>
     </div>
