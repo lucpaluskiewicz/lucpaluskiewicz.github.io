@@ -97,11 +97,9 @@ title: Home
     <img src="assets/img/profile2.png" alt="Luc Paluskiewicz">
     <div class="profile-contact">
       <a href="mailto:luc.paluskiewicz@psemail.eu">luc.paluskiewicz[at]psemail.eu</a><br>
-     /* Paris School of Economics<br> */
-     /* 48 boulevard Jourdan, 75014 Paris */
     </div>
     <div class="profile-links">
-      <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener">
+      <a href="https://scholar.google.com/citations?user=194d6voAAAAJ&hl=fr&oi=ao" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" role="img"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
       </a>
       <a href="https://lucpaluskiewicz.github.io/Luc_PALUSKIEWICZ_CV_En.pdf" title="Curriculum Vitae" aria-label="Curriculum Vitae" target="_blank" rel="noopener">
@@ -112,7 +110,7 @@ title: Home
 
   <div class="intro-text" markdown="1">
 
-I am a PhD candidate in Economics at [Paris School of Economics (PSE)](https://www.parisschoolofeconomics.eu/), [Collège de France](https://www.college-de-france.fr/fr) and [EHESS](https://www.ehess.fr/fr). I am supervised by [Philippe Aghion](https://www.philippeaghion.com/) and affiliated with the [Farhi Innovation Lab](https://www.farhi-innovation-lab.fr/).
+I am a PhD candidate in Economics at [Paris School of Economics (PSE)](https://www.parisschoolofeconomics.eu/) and [Collège de France](https://www.college-de-france.fr/fr). I am supervised by [Philippe Aghion](https://www.philippeaghion.com/) and affiliated with the [Farhi Innovation Lab](https://www.farhi-innovation-lab.fr/).
 
 **I'll be on the 2026-2027 academic job market.**
 
