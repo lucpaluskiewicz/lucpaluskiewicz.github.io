@@ -9,8 +9,6 @@ title: Home
   align-items: flex-start;
   gap: 45px;
   margin-bottom: 1rem;
-  margin-left: -50px;
-  margin-right: -50px;
 }
 .profile-block {
   flex: 0 0 280px;
