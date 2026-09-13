@@ -41,8 +41,8 @@ title: Home
   color: #c43e54;
 }
 .profile-links svg {
-  width: 22px;
-  height: 22px;
+  width: 25px;
+  height: 25px;
   fill: currentColor;
 }
 .intro-text {
@@ -94,7 +94,7 @@ title: Home
 <div class="intro-flex">
 
   <div class="profile-block">
-    <img src="assets/img/profile2.png" alt="Luc Paluskiewicz">
+    <img src="assets/img/photoLP_s.png" alt="Luc Paluskiewicz">
     <div class="profile-contact">
       <a href="mailto:luc.paluskiewicz@psemail.eu">luc.paluskiewicz[at]psemail.eu</a><br>
     </div>
