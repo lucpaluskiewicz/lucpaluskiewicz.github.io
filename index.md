@@ -65,7 +65,7 @@ title: Home
   margin-bottom: 20px;
 }
 .jmp-flex img {
-  width: 325px;
+  width: 280px;
   flex-shrink: 0;
 }
 .section-break {
