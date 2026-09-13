@@ -11,8 +11,8 @@ title: Home
   margin-bottom: 1rem;
 }
 .profile-block {
-  flex: 0 0 300px;
-  width: min(70vw, 300px);
+    flex: 0 0 auto;
+    width: min(75vw, 300px);   /* was: width: 200px; */
 }
 .profile-block img {
   width: 100%;
