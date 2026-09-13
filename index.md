@@ -11,8 +11,8 @@ title: Home
   margin-bottom: 1rem;
 }
 .profile-block {
-  flex: 0 0 240px;
-  width: 240px;
+  flex: 0 0 280px;
+  width: 280px;
 }
 .profile-block img {
   width: 100%;
