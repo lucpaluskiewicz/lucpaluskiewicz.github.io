@@ -18,10 +18,15 @@ title: Home
   width: 100%;
   display: block;
 }
+.profile-affiliations {
+  font-size: 0.85rem;
+  line-height: 1.8;
+  margin-top: 18px;
+  text-align: center;
+}
 .profile-contact {
   font-size: 0.85rem;
-  line-height: 1.6;
-  margin-top: 12px;
+  margin-top: 16px;
   text-align: center;
 }
 .profile-contact a {
@@ -95,6 +100,11 @@ title: Home
 
   <div class="profile-block">
     <img src="assets/img/photoLP_s.jpg" alt="Luc Paluskiewicz">
+    <div class="profile-affiliations">
+      Paris School of Economics<br>
+      Collège de France<br>
+      EHESS
+    </div>
     <div class="profile-contact">
       <a href="mailto:luc.paluskiewicz@psemail.eu">luc.paluskiewicz[at]psemail.eu</a><br>
     </div>
