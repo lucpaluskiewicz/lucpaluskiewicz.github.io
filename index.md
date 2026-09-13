@@ -12,7 +12,7 @@ title: Home
 }
 .profile-block {
   flex: 0 0 300px;
-  width: 300px;
+  width: min(70vw, 300px);
 }
 .profile-block img {
   width: 100%;
