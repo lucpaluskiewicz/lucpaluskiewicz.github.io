@@ -7,7 +7,7 @@ title: Home
 .intro-flex {
   display: flex;
   align-items: flex-start;
-  gap: 45px;
+  gap: 30px;
   margin-bottom: 1rem;
 }
 .profile-block {
