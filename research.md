@@ -161,3 +161,8 @@ details.reveal > summary:focus-visible {
 <details class="reveal"><summary>Abstract</summary><p class="reveal-body">Can party behaviour explain why gender equality policies fail to increase women's political representation? Using data from seven municipal elections, we show that Brazilian political parties undermine gender quotas and funding requirements by strategically placing female candidates in races where they expect weak performance while reserving "sure" races for men. Despite national-level compliance requirements, weak enforcement at the municipal level enables this strategic distribution across localities based on electoral competitiveness.</p></details>
 <details class="reveal"><summary>Presentations</summary><p class="reveal-body"><span class="label">Past:</span> 3rd ENS de Lyon – University of Bologna PhD Workshop, 8th Economics and Politics Workshop, CERGIC Internal Seminar, <strong>Gender Gaps Conference 2024, PSE-GPET Internal Seminar</strong>.</p><!--<p class="reveal-body"><span class="label">Upcoming:</span> </p>--></details>
 </div>
+
+<div class="paper">
+<span class="paper-title">The Price of Property Right: Innovation in Soviet Union and Russia</span>
+<p class="paper-meta">with <a href="">Fedor Boboshin</a> and <a href="https://sites.google.com/view/econjaecho/home">Jae Cho</a></p>
+</div>
