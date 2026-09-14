@@ -6,8 +6,8 @@ title: Research
 <style>
 /* ---------- Section rhythm ---------- */
 h2 {
-  margin-top: 2rem;
-  margin-bottom: 1.6rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 hr {
   margin: 3.5rem 0 0;
@@ -15,7 +15,7 @@ hr {
   border-top: 1px solid #e6e4e9;
 }
 .paper {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .paper:last-child {
   margin-bottom: 1em;
