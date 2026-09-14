@@ -1,13 +1,13 @@
 <style>
   .teaching .institution {
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-top: 2rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.6rem;
   }
 
   .teaching .course {
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.6rem;
   }
 
   .teaching .course-title {
@@ -42,16 +42,16 @@
   <div class="institution">Université Paris 1 Panthéon-Sorbonne</div>
 
   <div class="course">
-    <div class="course-title">Microeconomics &ndash; Uncertainty</div>
+    <div class="course-title">Microeconomics &ndash; Uncertainty (2022-2025) </div>
     <p class="course-details">
       Teaching assistant, undergraduate level &middot; Professor:
-      <a href="https://sites.google.com/site/francisbloch1/">Francis Bloch</a>
+      <a href=" ">Francis Bloch</a>
     </p>
-    <p class="course-fr">Microéconomie &ndash; Incertitude &middot; Travaux dirigés, niveau licence</p>
+    <p class="course-fr">Microéconomie de l'Incertain &middot; Travaux dirigés, niveau licence</p>
   </div>
 
   <div class="course">
-    <div class="course-title">Macroeconomics &ndash; Growth</div>
+    <div class="course-title">Macroeconomics &ndash; Growth (2022-2025) </div>
     <p class="course-details">
       Teaching assistant, undergraduate level &middot; Professors: Goulven Rubin and Maria Bas
     </p>
@@ -69,7 +69,7 @@
   <div class="institution">Université Paris Cité</div>
 
   <div class="course">
-    <div class="course-title">Undergraduate thesis supervision (2020)</div>
+    <div class="course-title">Undergraduate Thesis Supervision (2020)</div>
     <p class="course-details">
       Third-year Economics students &middot; Taught in French
     </p>
