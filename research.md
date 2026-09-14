@@ -15,10 +15,10 @@ hr {
   border-top: 1px solid #e6e4e9;
 }
 .paper {
-  margin-bottom: 3.25rem;
+  margin-bottom: 1rem;
 }
 .paper:last-child {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1em;
 }
 .paper-title {
   color: #211e29;
