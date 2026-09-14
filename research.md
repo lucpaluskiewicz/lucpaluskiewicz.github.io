@@ -6,7 +6,7 @@ title: Research
 <style>
 /* ---------- Section rhythm ---------- */
 h2 {
-  margin-top: 3.5rem;
+  margin-top: 2rem;
   margin-bottom: 1.6rem;
 }
 hr {
