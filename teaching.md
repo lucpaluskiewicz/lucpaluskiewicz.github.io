@@ -12,10 +12,11 @@
 
   .teaching .course-title {
     font-weight: 700;
+        font-size: 1.5rem;
   }
 
   .teaching .course-details {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #555;
     margin: 0.2rem 0 0 0;
   }
@@ -30,7 +31,7 @@
   }
 
   .teaching .course-fr {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: #888;
     font-style: italic;
     margin: 0.15rem 0 0 0;
