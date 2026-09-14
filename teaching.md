@@ -1,18 +1,18 @@
 <style>
   .teaching .institution {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-top: 2rem;
     margin-bottom: 1.6rem;
   }
 
   .teaching .course {
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.2rem;
   }
 
   .teaching .course-title {
     font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
   }
 
   .teaching .course-details {
