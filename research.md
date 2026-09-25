@@ -164,5 +164,5 @@ details.reveal > summary:focus-visible {
 
 <div class="paper">
 <span class="paper-title">The Price of Property Right: Innovation in Soviet Union and Russia</span>
-<p class="paper-meta">with <a href="">Fedor Boboshin</a> and <a href="https://sites.google.com/view/econjaecho/home">Jae Cho</a></p>
+<p class="paper-meta">with <a href="https://fedorboboshin.github.io/">Fedor Boboshin</a> and <a href="https://sites.google.com/view/econjaecho/home">Jae Cho</a></p>
 </div>
