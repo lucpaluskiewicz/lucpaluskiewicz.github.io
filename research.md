@@ -114,18 +114,21 @@ details.reveal > summary:focus-visible {
 
 <strong style="color:#211e29; font-size: 1.05rem;">How to Silence Researchers? Evidence from Illiberal Policies in Hungary</strong>
 <p style="font-size: 0.9rem; color: #555; margin-top: 0.3rem; margin-bottom: 0.5rem;">with <a href="https://raphaelwargon.github.io/" style="color: #555;">Raphaël Wargon</a> 
-<a href="https://lucpaluskiewicz.github.io/publications/LucPaluskiewicz_JMP.pdf" style="color:#c43e54; font-size: 0.9rem; text-decoration: none;">[Working Paper]</a>
+<a href="https://lucpaluskiewicz.github.io/publications/LucPaluskiewicz_JMP.pdf" style="color:#c43e54; font-size: 0.9rem; text-decoration: none;">[Draft]</a>
 </p>
 
 <div class="jmp-flex" style="display:flex; gap:40px; align-items:flex-start; margin-bottom:20px;">
 <img src="assets/img/ceu_network.png" style="width:325px; flex-shrink:0;">
 <div>
 <p><u><strong>Abstract</strong></u></p>
-<p style="font-size: 0.9rem; text-align: justify;"> We explore how contemporary attacks against academic freedom have detrimental effects on innovation, focusing on academic research in Hungary after the election of Viktor Orbán in 2010. Using rich national research repositories and international bibliometric data, we show that academics' trajectories diverge sharply depending on their perceived political alignment towards the government. Academics perceived as politically non-aligned experience a large decrease in their productivity and quality of their work. We explain this loss through the shrinking networks and declining influence of these authors. Targeted academics respond strongly, including by leaving the country and expressing dissent against the government. We show that academics self-censor in their academic work. Finally, individual-level crosscountry comparisons allow us to estimate the broader effects of declining academic freedom: Hungarian researchers increasingly reallocate their publication efforts toward lower-ranked national-language journals and are more likely to leave the country altogether. </p>
+<p style="font-size: 0.9rem; text-align: justify;"> We show how attacks against academic freedom have detrimental effects on the production of ideas, focusing on academic research in Hungary after the election of Viktor Orbán in 2010. Combining rich national research repositories and international bibliometric data, we show that academics’ research outputs diverge sharply depending on their political alignment towards the government, as inferred from their institutional affiliations and research topics. Academics perceived as political opponents experience a large decrease in their productivity and the quality of their publications. We explain this loss by a decline in their number of co-authors and in their scientific influence. These academics respond strongly by leaving the country, by expressing dissent against the government, or by self-censoring in their academic work. Individual-level cross-country comparisons show that all Hungarian researchers, not only perceived political opponents, shift their publications toward lower-ranked national-language journals and are more likely to leave the country. </p>
 </div>
 </div>
 
-<p style="font-size: small;"><u><strong>Past presentations:</strong></u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, NBER Summer Institute 2026 Science of Science Funding, EEA 2026 Annual Meeting.</p>
+<p style="font-size: 0.8rem;"><u>Past presentations:</u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, NBER Summer Institute 2026 Science of Science Funding, EEA 2026 Annual Meeting.</p>
+
+<p style="font-size: 0.8rem;"><u>Upcoming presentations:</u> Micro and Macro Perspective of the Labor Market Virtual Workshop (Duke University), 11th ZEW Conference on the Economics of Innovation and Patenting, Internal Seminar LED (Paris 8), Internal Seminar (Collège de France).</p>
+
 ---
 ## Publications
 
