@@ -59,14 +59,31 @@ title: Home
 }
 .jmp-flex {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   gap: 40px;
-  align-items: flex-start;
+  align-items: flex-start;   /* top of image = top of the "Job Market Paper" heading */
   margin-bottom: 20px;
+}
+.jmp-text {
+  flex: 1;
+  min-width: 0;
+}
+.jmp-text > h2:first-child {
+  margin-top: 0;             /* so the heading starts exactly at the top of the row */
+}
+.jmp-title {
+  color: #211e29;
+  font-size: 1.05rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.jmp-title:hover {
+  color: #c43e54;
 }
 .jmp-flex img {
   width: 280px;
   flex-shrink: 0;
+  display: block;
 }
 .section-break {
   clear: both;
@@ -137,25 +154,26 @@ Since 2023, I co-organize the [Brown Bag Economics of Innovation Seminar](https:
 
 <hr class="section-break">
 
-## Job Market Paper
+<div class="jmp-flex">
 
-<strong style="color:#211e29; font-size: 1.05rem;">How to Silence Researchers? Evidence from Illiberal Policies in Hungary</strong>
-<p style="font-size: 0.9rem; color: #555; margin-top: 0.3rem; margin-bottom: 0.5rem;"> with <a href="https://raphaelwargon.github.io/" style="color: #555; text-decoration: none;">Raphaël Wargon</a> 
-<a href="https://lucpaluskiewicz.github.io/publications/LucPaluskiewicz_JMP.pdf" style="color:#c43e54; font-size: 0.9rem; text-decoration: none;">[Last version]</a> 
+<div class="jmp-text">
+<h2 id="job-market-paper">Job Market Paper</h2>
+
+<a class="jmp-title" href="https://lucpaluskiewicz.github.io/publications/LucPaluskiewicz_JMP.pdf" target="_blank" rel="noopener">How to Silence Researchers? Evidence from Illiberal Policies in Hungary</a>
+<p style="font-size: 0.9rem; color: #555; margin-top: 0.3rem; margin-bottom: 0.5rem;"> with <a href="https://raphaelwargon.github.io/" style="color: #555; text-decoration: none;">Raphaël Wargon</a>
+<a href="https://lucpaluskiewicz.github.io/publications/LucPaluskiewicz_JMP.pdf" target="_blank" rel="noopener" style="color:#c43e54; font-size: 0.9rem; text-decoration: none;">[Last version]</a>
 </p>
 
-
-<div class="jmp-flex">
-<img src="assets/img/ceu_network.png" alt="Job market paper figure">
-<div>
 <p><u><strong>Abstract</strong></u></p>
-<p style="font-size: 0.95rem; text-align: justify;"> 
-We show how attacks against academic freedom have detrimental effects on the production of ideas, focusing on academic research in Hungary after the election of Viktor Orbán in 2010. Combining rich national research repositories and international bibliometric data, we show that academics’ research outputs diverge sharply depending on their political alignment towards the government, as inferred from their institutional affiliations and research topics. Academics perceived as political opponents experience a large decrease in their productivity and the quality of their publications. We explain this loss by a decline in their number of co-authors and in their scientific influence. These academics respond strongly by leaving the country, by expressing dissent against the government, or by self-censoring in their academic work. Individual-level cross-country comparisons show that all Hungarian researchers, not only perceived political opponents, shift their publications toward lower-ranked national-language journals and are more likely to leave the country. </p>
+<p style="font-size: 0.95rem; text-align: justify;">
+Does political pressure on academics reduce the production of ideas? We study this question in Hungary after the election of Viktor Orbán in 2010, which started a lasting decline in academic freedom. Combining rich national research repositories and international bibliometric data, we compare, in a difference-in-differences design, researchers likely to be perceived as political opponents, based on their pre-2010 institutional affiliations and research topics, with neutral researchers. After 2010, perceived opponents publish 18% fewer papers and far fewer papers in top journals. We explain this loss by a decline in their number of co-authors, not by funding. These academics respond strongly by leaving the country, by expressing dissent against the government, mainly in English, or by self-censoring in their Hungarian-language work. Individual-level cross-country comparisons with Slovenia and Croatia show that all Hungarian researchers, not only perceived political opponents, shift their publications toward lower-ranked national-language journals and are more likely to leave the country.
+</p>
 </div>
+
+<img src="assets/img/ceu_network.png" alt="Job market paper figure">
+
 </div>
 
 <p style="font-size: 0.8rem;"><u>Past presentations:</u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, NBER Summer Institute 2026 Science of Science Funding, EEA 2026 Annual Meeting.</p>
 
 <p style="font-size: 0.8rem;"><u>Upcoming presentations:</u> Micro and Macro Perspective of the Labor Market Virtual Workshop (Duke University), 11th ZEW Conference on the Economics of Innovation and Patenting, Internal Seminar LED (Paris 8), Internal Seminar (Collège de France).</p>
-
-
