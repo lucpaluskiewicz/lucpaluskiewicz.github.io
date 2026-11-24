@@ -69,6 +69,21 @@ a.paper-title:focus-visible {
   display: block;
 }
 
+/* ---------- Highlighted video link ---------- */
+.video-badge {
+  color: #c43e54 !important;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* ---------- Underline every link on hover so it is clear it is a link ---------- */
+.jmp-flex a:hover,
+.talks a:hover,
+.paper a:hover {
+  text-decoration: underline !important;
+}
+
 /* ---------- Collapsible abstract / presentations ---------- */
 details.reveal {
   margin: 0.3rem 0 0;
@@ -161,9 +176,7 @@ Does political pressure on academics reduce the production of ideas? We study th
 
 </div>
 
-<p style="font-size: 0.8rem;"><u>Past presentations:</u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, NBER Summer Institute 2026 Science of Science Funding, EEA 2026 Annual Meeting.</p>
-
-<p style="font-size: 0.8rem;"><u>Upcoming presentations:</u> Micro and Macro Perspective of the Labor Market Virtual Workshop (Duke University), 11th ZEW Conference on the Economics of Innovation and Patenting, Internal Seminar LED (Paris 8), Internal Seminar (Collège de France).</p>
+<p class="talks" style="font-size: 0.8rem;"><u>Presentations:</u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, <span style="font-weight: 600;">NBER Summer Institute 2026 Science of Science Funding</span> <a class="video-badge" href="https://youtu.be/8q3WXSysa-4?t=26204" target="_blank" rel="noopener">[&#127909; NBER recorded talk]</a>, EEA 2026 Annual Meeting, Micro and Macro Perspective of the Labor Market Virtual Workshop (Duke University), 11th ZEW Conference on the Economics of Innovation and Patenting, Internal Seminar LED (Paris 8), Internal Seminar (Collège de France).</p>
 
 ---
 ## Publications
@@ -180,7 +193,7 @@ Does political pressure on academics reduce the production of ideas? We study th
 <span class="paper-title">The Life Cycle of Ideas</span>
 <p class="paper-meta">with <a href="https://www.philippeaghion.com/">Philippe Aghion</a>, <a href="https://sites.google.com/site/abergeaudeco">Antonin Bergeaud</a>, <a href="http://www.gder.info/">Gaétan de Rassenfosse</a> and <a href="https://raphaelwargon.github.io/">Raphaël Wargon</a></p>
 <details class="reveal"><summary>Abstract</summary><p class="reveal-body">We contribute to the debate on the production of ideas by examining the scientific production of an entire field. We map the evolution of economic research by classifying 300,000 articles published in 1950–2020 using text analysis methods. We identify 90 distinct topics each characterized by a coherent set of themes and vocabulary. We document three main empirical patterns: topics show a rise-and-fall life cycle, aggregate scientific activity grows over time, and this growth is accompanied by a constant reset in the topic composition of the discipline, with newer topics progressively displacing older ones.</p></details>
-<details class="reveal"><summary>Presentations</summary><p class="reveal-body"><span class="label">Past:</span> Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), <strong>11th Monash-Paris-Warwick-Zurich-CEPR Text-As-Data Workshop</strong>.</p><p class="reveal-body"><span class="label">Upcoming:</span> NBER SI 2026 Science of Science Funding.</p></details>
+<details class="reveal"><summary>Presentations</summary><p class="reveal-body"><span class="label">Past:</span> Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), <strong>11th Monash-Paris-Warwick-Zurich-CEPR Text-As-Data Workshop</strong>, NBER SI 2026 Science of Science Funding.</p></details>
 </div>
 
 <div class="paper">
