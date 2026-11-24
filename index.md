@@ -92,6 +92,21 @@ title: Home
   margin-top: 4rem;
   margin-bottom: 2.5rem;
 }
+/* Highlighted video link in the presentations list */
+.video-badge {
+  display: inline-block;
+  background: #c43e54;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 1px 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.video-badge:hover {
+  background: #a83246;
+}
 /* Underline every link on hover so it is clear it is a link */
 .intro-flex a:hover,
 .jmp-flex a:hover,
@@ -180,4 +195,4 @@ Does political pressure on academics reduce the production of ideas? We study th
 
 </div>
 
-<p class="talks" style="font-size: 0.8rem;"><u>Presentations:</u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, <strong>NBER Summer Institute 2026 Science of Science Funding</strong> <a href="VIDEO_URL_HERE" target="_blank" rel="noopener" style="color:#c43e54; text-decoration: none;">[Video]</a>, EEA 2026 Annual Meeting, Micro and Macro Perspective of the Labor Market Virtual Workshop (Duke University), 11th ZEW Conference on the Economics of Innovation and Patenting, Internal Seminar LED (Paris 8), Internal Seminar (Collège de France).</p>
+<p class="talks" style="font-size: 0.8rem;"><u>Presentations:</u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, <span style="font-weight: 600;">NBER Summer Institute 2026 Science of Science Funding</span> <a class="video-badge" href="https://youtu.be/8q3WXSysa-4?t=26204" target="_blank" rel="noopener">&#9654; Watch the video</a>, EEA 2026 Annual Meeting, Micro and Macro Perspective of the Labor Market Virtual Workshop (Duke University), 11th ZEW Conference on the Economics of Innovation and Patenting, Internal Seminar LED (Paris 8), Internal Seminar (Collège de France).</p>
