@@ -92,6 +92,12 @@ title: Home
   margin-top: 4rem;
   margin-bottom: 2.5rem;
 }
+/* Underline every link on hover so it is clear it is a link */
+.intro-flex a:hover,
+.jmp-flex a:hover,
+.talks a:hover {
+  text-decoration: underline !important;
+}
 @media (max-width: 768px) {
   .intro-flex {
     flex-direction: column;
@@ -174,6 +180,4 @@ Does political pressure on academics reduce the production of ideas? We study th
 
 </div>
 
-<p style="font-size: 0.8rem;"><u>Past presentations:</u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, NBER Summer Institute 2026 Science of Science Funding, EEA 2026 Annual Meeting.</p>
-
-<p style="font-size: 0.8rem;"><u>Upcoming presentations:</u> Micro and Macro Perspective of the Labor Market Virtual Workshop (Duke University), 11th ZEW Conference on the Economics of Innovation and Patenting, Internal Seminar LED (Paris 8), Internal Seminar (Collège de France).</p>
+<p class="talks" style="font-size: 0.8rem;"><u>Presentations:</u> Innovation Seminar (LMU), Brown Bag Seminar in Innovation Economics (Collège de France and INSEAD), Applied Young Economists Webinar (AYEW), Political Economy & Public Economics Reading Group (University of Warwick), 2026 EAYE Annual Meeting, 2nd EUI ECO PhD Workshop (co-author), BSE Summer Forum Economics of Science and Innovation, CERGIC Internal Seminar, 8th International Conference on European Economics and Politics, <strong>NBER Summer Institute 2026 Science of Science Funding</strong> <a href="VIDEO_URL_HERE" target="_blank" rel="noopener" style="color:#c43e54; text-decoration: none;">[Video]</a>, EEA 2026 Annual Meeting, Micro and Macro Perspective of the Labor Market Virtual Workshop (Duke University), 11th ZEW Conference on the Economics of Innovation and Patenting, Internal Seminar LED (Paris 8), Internal Seminar (Collège de France).</p>
